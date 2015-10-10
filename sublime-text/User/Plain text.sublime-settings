@@ -1,0 +1,15 @@
+{
+	"extensions":
+	[
+		"php"
+	],
+	"rulers":
+	[
+      60,
+      72,
+		85,
+		120
+	],
+	"word_wrap": "true",
+	"wrap_width": 85
+}

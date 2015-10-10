@@ -1,0 +1,66 @@
+{
+   "always_prompt_for_file_reload": true,
+   "always_show_minimap_viewport": true,
+   "auto_complete_cycle": true,
+   "auto_complete_with_fields": true,
+   "bold_folder_labels": true,
+   "caret_style": "phase",
+   "close_windows_when_empty": true,
+   "copy_with_empty_selection": false,
+   "create_window_at_startup": true,
+   "default_line_ending": "unix",
+   "detect_indentation": false,
+   "drag_text": false,
+   "draw_minimap_border": true,
+   "draw_white_space": "all",
+   "enable_telemetry": "false",
+   "ensure_newline_at_eof_on_save": true,
+   "fade_fold_buttons": false,
+   "find_selected_text": true,
+   "folder_exclude_patterns":
+   [
+      ".idea",
+      ".sass-cache",
+      ".git"
+   ],
+   "font_face": "Ubuntu Mono",
+   "font_options":
+   [
+      "subpixel_antialias"
+   ],
+   "font_size": 22,
+   "highlight_modified_tabs": true,
+   "hot_exit": false,
+   "ignored_packages":
+   [
+      "Vintage"
+   ],
+   "indent_guide_options":
+   [
+      "draw_active"
+   ],
+   "indent_to_bracket": true,
+   "margin": 0,
+   "match_brackets_angle": true,
+   "move_to_limit_on_up_down": true,
+   "rulers":
+   [
+      60,
+      72,
+      85,
+      120
+   ],
+   "scroll_past_end": true,
+   "shift_tab_unindent": true,
+   "show_encoding": true,
+   "show_full_path": true,
+   "show_line_endings": true,
+   "smart_indent": false,
+   "spell_check": true,
+   "tab_size": 3,
+   "translate_tabs_to_spaces": true,
+   "trim_trailing_white_space_on_save": true,
+   "word_separators": "./\\()\"'_-–—“”‘”:,.;<>~!@#$%^&*|+=[]{}`~?",
+   "word_wrap": "true",
+   "wrap_width": 0
+}

@@ -1,0 +1,13 @@
+{
+   "extensions":
+   [
+      ".bash_aliases",
+      ".bashr",
+      ".bash_profile",
+      ".mkshrc",
+      ".git_aliases",
+      ".sh",
+      "config",
+      "conf"
+   ]
+}
