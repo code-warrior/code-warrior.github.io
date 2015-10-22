@@ -27,7 +27,7 @@ void setup(void) {
 
 void loop(void) {
    /*
-      Each of the decimal (base 10) numbers in the following byte array are converted
+      Each of the decimal (base 10) numbers in the following byte array is converted
       to its 8-bit binary (base 2) equivalent in the `shiftOut` function below (line
       60). The 8-bit number maps to segments in the 7-segment LED that draws a
       number between 0 – 9. For example, the decimal number 6 (line 39) maps to the
