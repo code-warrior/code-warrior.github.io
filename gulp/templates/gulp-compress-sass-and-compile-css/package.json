@@ -1,0 +1,30 @@
+{
+  "name": "gulp-compress-sass-and-compile-css",
+  "version": "1.0.0",
+  "description": "An automation template for compiling Sass and compressing its CSS output.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/code-warrior/code-warrior.github.io.git"
+  },
+  "keywords": [
+    "automation",
+    "template",
+    "sass",
+    "css"
+  ],
+  "author": "Roy Vanegas <roy@thecodeeducators.com> (http://roy.vanegas.org)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/code-warrior/code-warrior.github.io/issues"
+  },
+  "homepage": "https://github.com/code-warrior/code-warrior.github.io/gulp/templates/gulp-compress-sass-and-compile-css#readme",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-sass": "^2.1.0",
+    "gulp-autoprefixer": "^3.1.0"
+  }
+}

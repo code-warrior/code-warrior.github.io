@@ -1,0 +1,15 @@
+# Using Gulp to Compress and Compile CSS From a Target Sass File
+
+This is an automation template for compiling Sass and compressing its CSS output. It contains a reset CSS document as a Sass component in the folder `sass`, along with a file called `main.scss` in the same folder. Running this task creates `main.css` in the folder `css.` See `gulpfile.js` for more.
+
+## Usage
+
+1. From the root directory, install the required Node modules. (You may need to invoke the `sudo` user.)
+
+        npm install
+
+2. Run Gulp, which calls the default task to compile the CSS.
+
+        gulp
+
+3. Open `verify.html` in order to verify that the CSS was compiled.
