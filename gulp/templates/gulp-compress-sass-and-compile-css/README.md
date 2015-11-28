@@ -12,4 +12,4 @@ This is an automation template for compiling Sass and compressing its CSS output
 
         gulp
 
-3. Open `verify.html` in order to verify that the CSS was compiled.
+3. Open `index.html` in order to verify that the CSS was compiled.
