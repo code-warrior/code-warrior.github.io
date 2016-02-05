@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8">
+   <title>Basic Git Tutorial</title>
+      <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Alegreya+Sans:400,400italic,800,800italic&amp;subset=latin,latin-ext">
+      <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Inconsolata">
+      <link rel="stylesheet" href="http://www.thecodeeducators.com/css/normalize.css">
+      <link rel="stylesheet" href="http://www.thecodeeducators.com/css/main.css">
+      <link rel="stylesheet" href="http://www.thecodeeducators.com/css/headings.css">
+      <link rel="stylesheet" href="http://www.thecodeeducators.com/css/images.css">
+      <link rel="stylesheet" href="http://www.thecodeeducators.com/css/style.css">
+      <link rel="stylesheet" href="http://www.thecodeeducators.com/css/forms.css">
+      <link rel="stylesheet" href="http://www.thecodeeducators.com/css/links.css">
+      <link rel="stylesheet" href="http://www.thecodeeducators.com/css/tables.css">
+      <link rel="stylesheet" href="http://www.thecodeeducators.com/css/footer.css">
+      <style>
+body {
+   font-size: 1.1rem;
+   line-height: 1.4;
+}
+
+main {
+   max-width: 960px;
+   margin: 0 auto;
+   padding: 0 30px;
+}
+
+h1 {
+   font-size: 2rem;
+   text-align: center;
+}
+
+h1, h2 {
+   margin: 24px 0 0;
+}
+
+dt:not(:first-of-type) {
+   margin: 12px 0 0;
+}
+
+dt {
+   font-weight: bold;
+}
+
+kbd, code {
+   font-size: 1.05rem;
+}
+
+dd {
+   margin-top: 12px;
+   margin-bottom: 28px;
+}
+      </style>
+</head>
+<body>
+<h1>Basic Git Tutorial</h1>
+<main>
+   <h2>Commands</h2>
+   <dl>
+      <dt><kbd>git status</kbd></dt>
+      <dd>Displays the status of the repository, indicating whether a file has been changed or deleted, for example. Or, whether a new file has been added that Git is not aware of.</dd>
+
+      <dt><kbd>git clone git@REMOTE_HOST:USER/REPO.git</kbd></dt>
+      <dd>Clones <code>REPO</code> belonging to <code>USER</code> from <code>REMOTE_HOST</code>. For example, <kbd>git clone git@github.com:code-warrior/dockspacer.git</kbd> clones the <code>dockspacer</code> repository belonging to user <code>code-warrior</code> from the <code>github.com</code> remote host, which happens to be a web site, to your local computer.</dd>
+
+      <dt><kbd>git checkout -b hotfix</kbd></dt>
+      <dd>Creates a new branch named <code>hotfix</code> and switches to it.</dd>
+
+      <dt><kbd>git diff</kbd></dt>
+      <dd>Displays the changes made to one or more files that has not been added to the staging area, also known as the index.</dd>
+
+      <dt><kbd>git diff --cached</kbd></dt>
+      <dd>Displays the changes made to one or more files that has been added to the staging area/index, but has/have not been committed.</dd>
+
+      <dt><kbd>git add .</kbd></dt>
+      <dd>Adds the current directory (<code>.</code>) to the staging area/index.</dd>
+
+      <dt><kbd>git commit -m 'YOUR MESSAGE HERE'</kbd></dt>
+      <dd>Commits the changes in the staging area/index to the repository with the message (<code>-m</code>) <code>YOUR MESSAGE HERE</code>. The message must be wrapped in inch marks (<code>""</code>) or foot marks (<code>''</code>), and the convention is to keep the message under 60 characters.</dd>
+
+      <dt><kbd>git pull</kbd></dt>
+      <dd>Fetches the changes from the remote repository, then merges them into the local repository.</dd>
+
+      <dt><kbd>git push</kbd></dt>
+      <dd>Pushes and merges your local changes to a remote repository.</dd>
+   </dl>
+
+   <h2>Command Prompt</h2>
+   <p>The Git-based prompt that I use in Mac, Debian, and Windows was authored by <a href="http://blog.spearce.org/" target="_blank">Shawn Pearce</a>. Within the <abbr title="Command Line Interface">CLI</abbr> prompt, it provides the user with information about the current state of the Git repository without having to issue a command. An explanation of some of its icon characters follows. You can read more about the project on <a href="https://github.com/git/git/tree/master/contrib/completion" target="_blank">GitHub</a>.</p>
+   <dl>
+      <dt><code>(master)</code></dt>
+      <dd>You’re on the <code>master</code> branch, which is local and does not exchange files with a remote branch.</dd>
+
+      <dt><code>(dev &lt;&gt;)</code></dt>
+      <dd>You’re on the <code>dev</code> branch, which exchanges files with a remote branch (<code>&lt;&gt;</code>).</dd>
+
+      <dt><code>(master %&lt;&gt;)</code></dt>
+      <dd>You’re on the <code>master</code> branch that exchanges files with a remote branch (<code>&lt;&gt;</code>) and contains a file or folder that is not being tracked (<code>%</code>).</dd>
+
+      <dt><code>(dev *&lt;&gt;)</code></dt>
+      <dd>You’re on the <code>dev</code> branch that exchanges files with a remote branch (<code>&lt;&gt;</code>) and contains a file or folder that has been modified (<code>*</code>) in the working directory, but has not been committed to the staging area, or index.</dd>
+
+      <dt><code>(master +&lt;&gt;)</code></dt>
+      <dd>You’re on the <code>master</code> branch that exchanges files with a remote branch (<code>&lt;&gt;</code>) and contains a file or folder that has been placed in the staging area/index (<code>+</code>) and is ready to be committed. This is the result of having done <kbd>git add .</kbd>, or the like.</dd>
+   </dl>
+
+   <h2>Messages</h2>
+   <p>The following means you’re issuing Git commands within a folder/directory that is <strong>not</strong> under Git control.</p>
+   <pre><code>fatal: Not a git repository (or any of the parent directories): .git</code></pre>
+</main>
+</body>
+</html>
