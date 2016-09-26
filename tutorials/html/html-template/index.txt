@@ -5,5 +5,6 @@
    <title>HTML Template</title>
 </head>
 <body>
+   <!-- Download this file and rename it “index.html” -->
 </body>
 </html>
