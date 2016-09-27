@@ -56,7 +56,7 @@ dd {
 <body>
 <h1>Basic Git Tutorial</h1>
 <main>
-   <h2>Commands</h2>
+   <h2 id="commands">Commands</h2>
    <dl>
       <dt><kbd>git status</kbd></dt>
       <dd>Displays the status of the repository, indicating whether a file has been changed or deleted, for example. Or, whether a new file has been added that Git is not aware of.</dd>
@@ -86,7 +86,7 @@ dd {
       <dd>Pushes and merges your local changes to a remote repository.</dd>
    </dl>
 
-   <h2>Command Prompt</h2>
+   <h2 id="command-prompt">Command Prompt</h2>
    <p>The Git-based prompt that I use in Mac, Debian, and Windows was authored by <a href="http://blog.spearce.org/" target="_blank">Shawn Pearce</a>. Within the <abbr title="Command Line Interface">CLI</abbr> prompt, it provides the user with information about the current state of the Git repository without having to issue a command. An explanation of some of its icon characters follows. You can read more about the project on <a href="https://github.com/git/git/tree/master/contrib/completion" target="_blank">GitHub</a>.</p>
    <dl>
       <dt><code>(master)</code></dt>
@@ -103,6 +103,9 @@ dd {
 
       <dt><code>(master +&lt;&gt;)</code></dt>
       <dd>You’re on the <code>master</code> branch that exchanges files with a remote branch (<code>&lt;&gt;</code>) and contains a file or folder that has been placed in the staging area/index (<code>+</code>) and is ready to be committed. This is the result of having done <kbd>git add .</kbd>, or the like.</dd>
+
+      <dt><code>(master $)</code></dt>
+      <dd>You’re on the <code>master</code> branch that contains stashed changes. This is the result of having carried out the <kbd>git stash</kbd> command.</dd>
    </dl>
 
    <h2>Messages</h2>

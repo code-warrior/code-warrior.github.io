@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="utf-8">
+   <title>Ordered Lists</title>
+   <!-- Change the name of this file to “index.html” -->
+</head>
+<body>
+   <h1>Ordered Lists</h1>
+   <h2>Making Rice</h2>
+   <ol>
+      <li>Collect one part rice</li>
+      <li>Collect two parts water</li>
+      <li>Bring water to a boil</li>
+      <li>Pour in rice</li>
+      <li>Cover pot and simmer until rice is fluffy</li>
+   </ol>
+   <h2>Table of Contents</h2>
+   <ol>
+      <li>Introduction</li>
+      <li>HTML
+         <ol>
+            <li>The <code>&lt;head&gt;</code> section</li>
+            <li>The <code>&lt;body&gt;</code> section</li>
+         </ol>
+      </li>
+      <li>CSS
+         <ol>
+            <li>The cascade</li>
+            <li>Selectors</li>
+            <li>Specificity</li>
+            <li>etc…</li>
+         </ol>
+      </li>
+   </ol>
+</body>
+</html>

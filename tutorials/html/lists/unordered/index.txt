@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="utf-8">
+   <title>Unordered Lists</title>
+   <!-- Change the name of this file to “index.html” -->
+</head>
+<body>
+   <h1>Unordered Lists</h1>
+   <h2>Shopping List</h2>
+   <ul>
+      <li>Rice</li>
+      <li>Tofu</li>
+      <li>Kale</li>
+      <li>Almond milk</li>
+   </ul>
+   <h2>Another Shopping List</h2>
+   <ul>
+      <li>Beans
+         <ul>
+            <li>Black</li>
+            <li>Kidney</li>
+            <li>Aduki</li>
+            <li>Lima</li>
+         </ul>
+      </li>
+   </ul>
+</body>
+</html>

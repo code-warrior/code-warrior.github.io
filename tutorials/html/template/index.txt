@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="utf-8">
+   <title>HTML Template</title>
+</head>
+<body>
+   <!-- Download this file and rename it “index.html” -->
+</body>
+</html>
