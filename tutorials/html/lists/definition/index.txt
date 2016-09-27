@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="utf-8">
+   <title>Definition List</title>
+   <!-- Change the name of this file to “index.html” -->
+</head>
+<body>
+   <h1>Definition List</h1>
+   <h2>Dictionary</h2>
+   <dl>
+      <dt>Right</dt>
+      <dd>Opposite of left</dd>
+      <dd>Being correct</dd>
+
+      <dt>Leaves</dt>
+      <dd>The opposite of staying</dd>
+      <dd>Things on a tree</dd>
+   </dl>
+</body>
+</html>
