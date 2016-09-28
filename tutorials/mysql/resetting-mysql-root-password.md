@@ -20,6 +20,11 @@
 
         mysql> UPDATE user SET Password=PASSWORD('NEW PASSWORD') WHERE Host='localhost' AND User='root';
 
+    In MySQL 5.7.x, do the following:
+
+        mysql> UPDATE user SET authentication_string = Password=PASSWORD('NEW PASSWORD') WHERE Host='localhost' AND User='root';
+
+
 6. Exit MySQL:
 
         mysql> exit
