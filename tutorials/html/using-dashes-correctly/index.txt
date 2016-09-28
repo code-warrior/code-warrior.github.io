@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="utf-8">
+   <title>Using Dashes Correctly</title>
+   <!-- Change the name of this file to “index.html” -->
+</head>
+<body>
+   <header>
+      <h1>Using Dashes Correctly</h1>
+   </header>
+   <main>
+      <h2>En Dash (Through Relationships)</h2>
+      <p style="color: red;">Mon-Fri</p>
+      <p style="color: green;">Mon–Fri</p>
+      <p style="color: green;">Mon&ndash;Fri</p>
+
+      <h2>Em Dash (Subordinate and Parenthetical Clauses)</h2>
+      <p style="color: red;">I love web design - as do my students</p>
+      <p style="color: green;"">I love web design—as do my students</p>
+      <p style="color: green;"">I love web design&mdash;as do my students</p>
+      <p style="color: red;">I love web design---as do my students---because it is awesome!</p>
+      <p style="color: green;">I love web design—as do my students—because it is awesome!</p>
+      <p style="color: green;">I love web design&mdash;as do my students&mdash;because it is awesome!</p>
+   </main>
+</body>
+</html>
