@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="utf-8">
+   <title>Tables Example — A Grocery Receipt</title>
+   <!-- Change the name of this file to “receipt.html” -->
+   <style>
+
+table {
+   border-collapse: collapse;
+}
+
+table, td, th {
+   border: 1px solid black;
+   padding: 8px;
+}
+
+td[colspan="2"] {
+   text-align: right;
+}
+
+td:last-of-type {
+   text-align: right;
+}
+
+tbody tr:nth-child(even) {
+   background-color: #ccc;
+}
+   </style>
+</head>
+<body>
+   <h1>Tables Example — A Grocery Receipt</h1>
+   <h2>Receipt</h2>
+   <table>
+      <thead>
+         <tr>
+            <th>Quantity</th>
+            <th>Description</th>
+            <th>Price</th>
+         </tr>
+      </thead>
+      <tfoot>
+         <tr>
+            <td colspan="2">Tax</td>
+            <td>$0.00</td>
+         </tr>
+         <tr>
+            <td colspan="2">Total</td>
+            <td>$10.00</td>
+         </tr>
+      </tfoot>
+      <tbody>
+         <tr>
+            <td>1</td>
+            <td>Apple</td>
+            <td>$1.00</td>
+         </tr>
+         <tr>
+            <td>3</td>
+            <td>Carrot</td>
+            <td>$2.00</td>
+         </tr>
+         <tr>
+            <td>2</td>
+            <td>Banana</td>
+            <td>$2.00</td>
+         </tr>
+         <tr>
+            <td>1</td>
+            <td>Soy milk</td>
+            <td>$5.00</td>
+         </tr>
+      </tbody>
+   </table>
+</body>
+</html>
