@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="utf-8">
+   <title>Combinators — Descendant</title>
+   <style>
+div em {
+   border: 1px solid #ddd;
+}
+   </style>
+</head>
+<body>
+   <div>
+      <p>Paragraph <em>1</em></p>
+      <ul>
+         <li>Item 1</li>
+         <li>Item <em>2</em></li>
+         <li>
+            <ul>
+               <li>Item <em>2.1</em></li>
+            </ul>
+         </li>
+      </ul>
+      <ol>
+         <li>Item 1</li>
+         <li>Item <em>2</em></li>
+         <li>
+            <ol>
+               <li>Item <em>2.1</em></li>
+            </ol>
+         </li>
+      </ol>
+   </div>
+</body>
+</html>
