@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="utf-8">
+   <title>Combinators — General Sibling</title>
+   <style>
+h3 ~ h5:first-letter {
+   font-size: 3rem;
+}
+   </style>
+</head>
+<body>
+   <h1>The New York Times</h1>
+   <h2>Regional</h2>
+   <h3>NY</h3>
+   <h4>New York City</h4>
+   <h5>Queens</h5>
+   <h6>Flushing</h6>
+   <h5>Brooklyn</h5>
+   <h6>Red Hook</h6>
+</body>
+</html>
