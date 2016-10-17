@@ -1,0 +1,13 @@
+body {
+   width: 80%;
+   margin: 0 auto;
+   font-family: Helvetica, sans-serif;
+}
+
+p {
+   padding: 20px;
+}
+
+strong {
+   border-bottom: 1px solid #999;
+}
