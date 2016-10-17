@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="utf-8">
+   <title>Including CSS in your HTML — The Embedded/Internal Way</title>
+   <!-- Rename this file “index.html” -->
+   <style>
+body {
+   width: 80%;
+   margin: 0 auto;
+   font-family: Helvetica, sans-serif;
+}
+
+p {
+   padding: 20px;
+}
+
+strong {
+   border-bottom: 1px solid #999;
+}
+   </style>
+</head>
+<body>
+   <p><strong>Animal rights</strong> is the idea that some, or all, non-human animals are entitled to the possession of their own lives and that their most basic interests — such as the need to avoid suffering — should be afforded the same consideration as similar interests of human beings.</p>
+</body>
+</html>
