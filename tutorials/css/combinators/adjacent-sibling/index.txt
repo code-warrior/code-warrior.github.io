@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="utf-8">
+   <title>Combinators — Adjacent Sibling</title>
+   <style>
+li + li {
+   color: #f00ba3;
+   list-style-type: none;
+}
+   </style>
+</head>
+<body>
+   <header>
+      <nav>
+         <ul>
+            <li>Home</li>
+            <li>Portfolio</li>
+            <li>About</li>
+            <li>Contact</li>
+         </ul>
+      </nav>
+   </header>
+</body>
+</html>
