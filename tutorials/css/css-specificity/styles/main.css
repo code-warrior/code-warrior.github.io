@@ -1,0 +1,40 @@
+body {
+   font-family: "Luxi Sans";
+}
+
+h1 {
+   font-size: 2rem;
+   font-weight: 700;
+   margin: 36px 0;
+   text-align: center;
+}
+
+table {
+   margin: 0 auto;
+   border-collapse: collapse;
+}
+
+table, td {
+   border: 1px solid black;
+}
+
+th, td {
+   padding: 8px;
+   line-height: 1.4;
+}
+
+td:last-of-type {
+   vertical-align: middle;
+   padding: 8px;
+   text-align: center;
+}
+
+
+code {
+   border: 1px solid #ddd;
+   border-radius: 6px;
+   font-family: monospace;
+   box-shadow: #feffff 0 1px 1px;
+   padding: 4px;
+   background-color: #eee;
+}

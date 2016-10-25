@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="utf-8">
+   <title>CSS Specificity Calculations</title>
+   <link rel="stylesheet" href="styles/reset.css">
+   <link rel="stylesheet" href="styles/fonts.css">
+   <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+   <h1>CSS Specificity Calculations</h1>
+   <table>
+      <thead>
+         <tr>
+            <th>Selector Type</th>
+            <th>Specificity</th>
+         </tr>
+      </thead>
+      <tbody>
+         <tr>
+            <td>Universal selector (the <code>*</code> operator)<br>
+               Combinators (the <code>+</code> operator)</td>
+            <td><code>0, 0, 0, 0</code></td>
+         </tr>
+         <tr>
+            <td>Element identifier (such as <code>p</code>, <code>ul</code>, etc.)<br>
+            Pseudo-element identifier (such as the poorly supported <code>:first-line</code> and <code>:first-letter</code>)</td>
+            <td><code>0, 0, 0, 1</code></td>
+         </tr>
+         <tr>
+            <td>Class identifier (elements that begin with the dot operator (<code>.</code>))<br>
+            Pseudo-class identifier (such as <code>a:link</code>, etc)<br>
+            Attribute identifier (selection based on the attribute assigned to an HTML tag, such as <code>img[width]</code>.</td>
+            <td><code>0, 0, 1, 0</code></td>
+         </tr>
+         <tr>
+            <td>ID identifier (elements that begin with the pound, or hash, mark: <code>&#035;</code>)</td>
+            <td><code>0, 1, 0, 0</code></td>
+         </tr>
+         <tr>
+            <td>Inline style (style information included directly inside an HTML tag)</td>
+            <td><code>1, 0, 0, 0</code></td>
+         </tr>
+      </tbody>
+   </table>
+</body>
+</html>
