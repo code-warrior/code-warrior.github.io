@@ -1,0 +1,92 @@
+<DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="utf-8">
+   <title>The font Shortcut Cheat Sheet</title>
+   <link rel="stylesheet" href="styles/reset.css">
+   <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+   <h1>The Font Shortcut</h1>
+   <pre>
+/* Syntax */
+font: { [font-style] [font-variant] [font-weight] font-size [ / line-height] font-family |
+   caption |
+   icon |
+   menu |
+   message-box |
+   small-caption |
+   status-bar |
+   inherit
+};
+
+/* Style */
+font-style: italic;
+font-style: normal; /* DEfAULT/INITIAL */
+font-style: oblique;
+font-style: inherit;
+
+/* Variant */
+font-variant: normal; /* DEfAULT/INITIAL */
+font-variant: small-caps;
+font-variant: inherit;
+
+/* Weight */
+font-weight: 100;     /* thin */
+font-weight: 200;     /* extra light */
+font-weight: 300;     /* light */
+font-weight: 400;     /* normal — DEfAULT/INITIAL */
+font-weight: 500;     /* medium */
+font-weight: 600;     /* semi bold */
+font-weight: 700;     /* bold */
+font-weight: 800;     /* extra bold */
+font-weight: 900;     /* black */
+font-weight: lighter; /* lighter than inherited font weight */
+font-weight: bolder;  /* bolder than inherited font weight */
+
+/* Size */
+/* Absolute Sizes (T-shirt Sizes)
+
+   In CSS 1, the scaling factor is about 1.5 up and 0.66 down. In CSS 2, the scaling
+   factor is between 1.0 and 1.2 up.
+*/
+font-size: xx-small;
+font-size: x-small;
+font-size: small;
+font-size: medium;
+font-size: large;
+font-size: x-large;
+font-size: xx-large;
+
+font-size: larger; /* larger than the inherited size */
+font-size: smaller /* smaller than the inherited size */
+
+font-size: 16px; /* length values */
+font-size: 1em;  /* inherited font size values */
+font-size: 1rem; /* root element size values */
+
+font-size: 100%; /* percentage values */
+
+/* Leading */
+line-height: normal;
+line-height: 3.5; /* number values */
+line-height: 3em; /* length values */
+line-height: 34%; /* percentage values */
+
+/* Family */
+font-family: 'Times New Roman', Georgia, serif;
+font-family: Helvetica, Arial, sans-serif;
+font-family: 'Courier New', Courier, monspace;
+font-family: 'Juice ITC', Marker Felt', fantasy;
+font-family: 'Comic Sans MS', 'Apple Chancery', cursive;
+
+/* Operating-system Level Fonts */
+font: caption;
+font: icon;
+font: menu;
+font: message-box;
+font: small-caption;
+font: status-bar;
+   </pre>
+</body>
+</html>
