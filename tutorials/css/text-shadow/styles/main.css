@@ -1,0 +1,41 @@
+main {
+   width: 40%;
+   margin: 4% auto;
+}
+
+p {
+   margin: 34px 0;
+   border: 1px solid #ddd;
+}
+
+.text-shadow--points-up--no-blur {
+   text-shadow: 0 -24px 0 purple;
+}
+
+.text-shadow--points-right--no-blur {
+   text-shadow: 100px 0 0 purple;
+}
+
+.text-shadow--points-down--no-blur {
+   text-shadow: 0 24px 0 purple;
+}
+
+.text-shadow--points-left--no-blur {
+   text-shadow: -100px 0 0 purple;
+}
+
+.text-shadow--points-up--heavy-blur {
+   text-shadow: 0 -24px 10px purple;
+}
+
+.text-shadow--points-right--heavy-blur {
+   text-shadow: 100px 0 20px purple;
+}
+
+.text-shadow--points-down--heavy-blur {
+   text-shadow: 0 24px 30px purple;
+}
+
+.text-shadow--points-left--heavy-blur {
+   text-shadow: -100px 0 40px purple;
+}
