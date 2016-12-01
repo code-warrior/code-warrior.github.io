@@ -8,6 +8,17 @@ p {
    border: 1px solid #ddd;
 }
 
+h1 {
+   margin: 100px 0;
+}
+
+h1.multiple-shadows {
+   text-shadow: 0 -24px 10px red,
+      0 24px 20px green,
+      -48px 0 30px blue,
+      48px 0 40px pink;
+}
+
 .text-shadow--points-up--no-blur {
    text-shadow: 0 -24px 0 purple;
 }
