@@ -18,7 +18,7 @@ background: white url('bg.png') no-repeat fixed 0 0 / 500px 500px;
 
 **Acronym:** SVWSLF
 
-**Mnemonic:** “Sexy vegan woman seeks large fatboy”
+**Mnemonic:** “Strict vegan woman seeks lovely freegan”
 
 **Stands for...** `font-style font-variant font-weight font-size / line-height font-family`
 (or, you can replace all of the above with `caption`, `icon`, `menu`, `message-box`, `small-caption`, `status-bar`)
