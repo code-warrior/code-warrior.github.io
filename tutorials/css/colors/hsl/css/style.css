@@ -10,6 +10,12 @@ h1 {
    text-align: center;
 }
 
+h2 {
+   margin-top: 48px;
+   margin-bottom: 12px;
+   text-align: center;
+}
+
 code {
    margin: 4rem 0;
    text-align: center;
@@ -19,18 +25,17 @@ code {
 }
 
 label {
+   width: 80%;
    display: block;
    margin: 0 auto;
 }
 
-#hue,
-#saturation,
-#lightness {
-   width: 800px;
-}
-
 span {
    content: '%';
+}
+
+section {
+   margin: auto;
 }
 
 /*
