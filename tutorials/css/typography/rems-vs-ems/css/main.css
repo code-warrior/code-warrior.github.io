@@ -1,0 +1,22 @@
+:root {
+   font-size: 18px;
+}
+
+.using-ems {
+   font-size: 2em;
+}
+
+.using-root-ems {
+   font-size: 2rem;
+}
+
+h1 {
+   margin-top: 20px;
+   text-align: center;
+}
+
+section {
+   margin: 20px 0;
+   padding: 20px;
+   background-color: #eee;
+}
