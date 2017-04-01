@@ -3,9 +3,10 @@
 
 window.onload = function () {
     'use strict';
-
+    let msg = document.getElementById('msg');
     let body = document.body,
-        code = document.getElementsByTagName('code')[0],
+        hslOutput = document.getElementsByTagName('code')[0],
+        rgbOutput = document.getElementsByTagName('code')[1],
         hueSlider = document.getElementById('hue'),
         saturationSlider = document.getElementById('saturation'),
         lightnessSlider = document.getElementById('lightness'),
@@ -24,7 +25,8 @@ window.onload = function () {
         realTimeLightnessValue.innerHTML = `${lightnessValue}%`;
 
         body.style.backgroundColor = hsl;
-        code.textContent = hsl;
+        hslOutput.textContent = hsl;
+        rgbOutput.textContent = window.getComputedStyle(body, null).getPropertyValue('background-color');
     }
 
     hueSlider.addEventListener('input', updateBackgroundColor, false);
