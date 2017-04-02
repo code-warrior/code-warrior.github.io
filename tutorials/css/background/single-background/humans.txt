@@ -1,7 +1,6 @@
 /* TEAM */
 
    Educator: Roy Vanegas
-   URL: http://roy.vanegas.org/portfolio
    Contact: roy [ at ] thecodeeducators [ dot ] com
    Twitter: @royvanegas
 
