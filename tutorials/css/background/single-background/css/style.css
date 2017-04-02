@@ -1,0 +1,23 @@
+html,
+body,
+div {
+   padding: 0;
+   margin: 0;
+}
+
+a {
+   text-decoration: none;
+   color: rgb(0, 120, 255);
+}
+
+span {
+   display: inline-block;
+   line-height: 2.5;
+   padding: 20px;
+   background-color: rgba(250, 208, 134, 0.6);
+}
+
+#container-with-background {
+   height: 100vh;
+   background: #666 url('../img/6055291281_0cc6fa5272_b.jpg') no-repeat fixed 0 0 / cover;
+}
