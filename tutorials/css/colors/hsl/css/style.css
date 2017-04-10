@@ -137,21 +137,25 @@ input[type="range"]::-ms-track {
    border-width: 16px 0;
    color: transparent;
 }
+
 input[type="range"]::-ms-fill-lower {
    background: #2a6495;
    border: 0.2px solid #010101;
    border-radius: 2.6px;
    box-shadow: 1px 1px 1px #000, 0 0 1px #0d0d0d;
 }
+
 input[type="range"]:focus::-ms-fill-lower {
    background: #3071a9;
 }
+
 input[type="range"]::-ms-fill-upper {
    background: #3071a9;
    border: 0.2px solid #010101;
    border-radius: 2.6px;
    box-shadow: 1px 1px 1px #000, 0 0 1px #0d0d0d;
 }
+
 input[type="range"]:focus::-ms-fill-upper {
    background: #367ebd;
 }
