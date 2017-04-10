@@ -3,7 +3,7 @@
 
 window.onload = function () {
     'use strict';
-    let msg = document.getElementById('msg');
+
     let body = document.body,
         hslOutput = document.getElementsByTagName('code')[0],
         rgbOutput = document.getElementsByTagName('code')[1],
