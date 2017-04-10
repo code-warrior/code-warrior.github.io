@@ -159,3 +159,48 @@ input[type="range"]::-ms-fill-upper {
 input[type="range"]:focus::-ms-fill-upper {
    background: #367ebd;
 }
+
+.disabled input[disabled] {
+   -webkit-appearance: none;
+}
+
+.disabled input[disabled]::-webkit-slider-thumb {
+   -webkit-appearance: none;
+}
+
+.disabled input[disabled]::-ms-track {
+   cursor: unset;
+}
+
+.disabled input[disabled]::-webkit-slider-thumb {
+   border: none;
+   background: grey;
+   cursor: unset;
+   box-shadow: none;
+}
+
+.disabled input[disabled]::-moz-range-thumb {
+   cursor: unset;
+   border: none;
+   background: grey;
+   box-shadow: none;
+}
+
+.disabled input[disabled]::-moz-range-track {
+   background: grey;
+   cursor: unset;
+   box-shadow: none;
+   border: none;
+}
+
+.disabled input[disabled]::-ms-thumb {
+   background: grey;
+   cursor: unset;
+}
+
+.disabled input[disabled]::-webkit-slider-runnable-track {
+   cursor: unset;
+   box-shadow: none;
+   background: grey;
+   border: none;
+}
