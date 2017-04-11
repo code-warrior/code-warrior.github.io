@@ -1,0 +1,46 @@
+.disabled {
+   input[disabled] {
+      -webkit-appearance: none;
+   }
+
+   input[disabled]::-webkit-slider-thumb {
+      -webkit-appearance: none;
+   }
+
+   input[disabled]::-ms-track {
+      cursor: unset;
+   }
+
+   input[disabled]::-webkit-slider-thumb {
+      border: none;
+      background: grey;
+      cursor: unset;
+      box-shadow: none;
+   }
+
+   input[disabled]::-moz-range-thumb {
+      cursor: unset;
+      border: none;
+      background: grey;
+      box-shadow: none;
+   }
+
+   input[disabled]::-moz-range-track {
+      background: grey;
+      cursor: unset;
+      box-shadow: none;
+      border: none;
+   }
+
+   input[disabled]::-ms-thumb {
+      background: grey;
+      cursor: unset;
+   }
+
+   input[disabled]::-webkit-slider-runnable-track {
+      cursor: unset;
+      box-shadow: none;
+      background: grey;
+      border: none;
+   }
+}

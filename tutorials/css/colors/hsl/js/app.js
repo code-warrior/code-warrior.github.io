@@ -10,16 +10,18 @@ window.onload = function () {
         hueSlider = document.getElementById('hue'),
         saturationSlider = document.getElementById('saturation'),
         lightnessSlider = document.getElementById('lightness'),
-        realTimeHueValue = document.querySelector('section:nth-of-type(1) > h2 > span'),
-        realTimeSaturationValue = document.querySelector('section:nth-of-type(2) > h2 > span'),
-        realTimeLightnessValue = document.querySelector('section:nth-of-type(3) > h2 > span'),
-        realTimeRedValue = document.querySelector('section:nth-of-type(5) > h2 > span'),
-        realTimeGreenValue = document.querySelector('section:nth-of-type(6) > h2 > span'),
-        realTimeBlueValue = document.querySelector('section:nth-of-type(7) > h2 > span');
+        realTimeHueValue = document.querySelector('section:nth-of-type(2) > h2 > span'),
+        realTimeSaturationValue = document.querySelector('section:nth-of-type(3) > h2 > span'),
+        realTimeLightnessValue = document.querySelector('section:nth-of-type(4) > h2 > span'),
+        realTimeRedValue = document.querySelector('section:nth-of-type(6) > h2 > span'),
+        realTimeGreenValue = document.querySelector('section:nth-of-type(7) > h2 > span'),
+        realTimeBlueValue = document.querySelector('section:nth-of-type(8) > h2 > span');
 
     function updateBackgroundColor() {
+
         // The “R” in “rgb(R, G, B)” is consistently at index 4.
-        const INDEX_OF_R_IN_RGB = 4;
+        const INDEX_OF_R_IN_RGB = 4
+        const OFFSET = 2;
 
         let hueValue = hueSlider.value,
             saturationValue = saturationSlider.value,
@@ -50,8 +52,8 @@ window.onload = function () {
             indexOfLastComma = rgbString.lastIndexOf(','),
             indexOfRightParens = rgbString.lastIndexOf(')'),
             lengthOfRinRGB = indexOfFirstComma - INDEX_OF_R_IN_RGB,
-            lengthOfGinRGB = indexOfLastComma - (indexOfFirstComma + 2),
-            lengthOfBinRGB = indexOfRightParens - (indexOfLastComma + 2);
+            lengthOfGinRGB = indexOfLastComma - (indexOfFirstComma + OFFSET),
+            lengthOfBinRGB = indexOfRightParens - (indexOfLastComma + OFFSET);
 
         realTimeRedValue.textContent =
                 redSlider.value =
@@ -59,11 +61,11 @@ window.onload = function () {
 
         realTimeGreenValue.textContent =
                 greenSlider.value =
-                        rgbString.substr((indexOfFirstComma + 2), lengthOfGinRGB);
+                        rgbString.substr((indexOfFirstComma + OFFSET), lengthOfGinRGB);
 
         realTimeBlueValue.textContent =
                 blueSlider.value =
-                        rgbString.substr((indexOfLastComma + 2), lengthOfBinRGB);
+                        rgbString.substr((indexOfLastComma + OFFSET), lengthOfBinRGB);
     }
 
     hueSlider.addEventListener('input', updateBackgroundColor, false);
