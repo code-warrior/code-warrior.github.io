@@ -13,18 +13,11 @@ h1 {
    margin: 12px 0;
    font-size: 3rem;
    text-align: center;
-
-   @media (max-width: $breakpoint--ipad-pro) {
-   }
 }
 
 h2 {
    text-align: center;
    margin: 12px 0;
-
-   @media (max-width: $breakpoint--ipad-pro) {
-
-   }
 }
 
 label {
