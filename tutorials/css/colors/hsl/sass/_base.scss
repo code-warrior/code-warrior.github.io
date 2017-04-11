@@ -1,0 +1,70 @@
+body {
+   width: 94%;
+   margin: 0 auto;
+   background-color: hsl(194, 66%, 50%);
+   font-family: 'Muli', sans-serif;
+
+   @media (max-width: $breakpoint--ipad-pro) {
+      width: 100%;
+   }
+}
+
+h1 {
+   margin: 12px 0;
+   font-size: 3rem;
+   text-align: center;
+
+   @media (max-width: $breakpoint--ipad-pro) {
+   }
+}
+
+h2 {
+   text-align: center;
+   margin: 12px 0;
+
+   @media (max-width: $breakpoint--ipad-pro) {
+
+   }
+}
+
+label {
+   width: 80%;
+   display: block;
+   margin: 0 auto;
+
+   @media (max-width: $breakpoint--ipad-pro) {
+      width: 94%;
+   }
+}
+
+span {
+   content: '%';
+}
+
+section {
+   margin: 18px auto;
+}
+
+section:nth-of-type(1),
+section:nth-of-type(5)
+{
+   line-height: 1;
+   text-align: center;
+
+   code {
+      line-height: 1;
+      letter-spacing: -4px;
+      word-spacing: -12px;
+      padding: 0 8px;
+      margin: auto;
+      text-align: center;
+      display: inline-block;
+      font-family: 'Cutive Mono', sans-serif;
+      font-size: 2rem;
+   }
+}
+
+section:nth-of-type(5)
+{
+   margin-top: 60px;
+}

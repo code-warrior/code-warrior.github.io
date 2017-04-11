@@ -3,32 +3,42 @@
 <head>
    <meta charset="utf-8">
    <meta name="viewport" content="width=device-width,initial-scale=1">
-   <link href="https://fonts.googleapis.com/css?family=Muli:200|Overpass+Mono:300" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Muli:200|Cutive+Mono" rel="stylesheet">
    <title>Interactive HSL</title>
    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
    <h1>Interactive <abbr title="Hue Saturation Lightness">HSL</abbr></h1>
-
-   <section>
-      <h2>Hue (<span>194°</span>)</h2>
-      <label for="hue"><input type="range" id="hue" min="0" max="360" step="1" value="194"></label>
-   </section>
-
-   <section>
-      <h2>Saturation (<span>66%</span>)</h2>
-      <label for="saturation"><input type="range" id="saturation" min="0" max="100" step="1" value="66"></label>
-   </section>
-
-   <section>
-      <h2>Lightness (<span>50%</span>)</h2>
-      <label for="lightness"><input type="range" id="lightness" min="0" max="100" step="1" value="50"></label>
-   </section>
    <section>
       <code>hsl(194, 66%, 50%)</code>
    </section>
    <section>
+      <h2>Hue (<span>194°</span>)</h2>
+      <label for="hue"><input type="range" id="hue" min="0" max="360" step="1" value="194"></label>
+   </section>
+   <section>
+      <h2>Saturation (<span>66%</span>)</h2>
+      <label for="saturation"><input type="range" id="saturation" min="0" max="100" step="1" value="66"></label>
+   </section>
+   <section>
+      <h2>Lightness (<span>50%</span>)</h2>
+      <label for="lightness"><input type="range" id="lightness" min="0" max="100" step="1" value="50"></label>
+   </section>
+
+   <section>
       <code>rgb(43, 173, 212)</code>
+   </section>
+   <section class="disabled">
+      <h2>Red (<span>43</span>)</h2>
+      <label for="red-channel"><input disabled type="range" id="red-channel" min="0" max="255" step="1" value="43"></label>
+   </section>
+   <section class="disabled">
+      <h2>Green (<span>173</span>)</h2>
+      <label for="green-channel"><input disabled type="range" id="green-channel" min="0" max="255" step="1" value="173"></label>
+   </section>
+   <section class="disabled">
+      <h2>Blue (<span>212</span>)</h2>
+      <label for="blue-channel"><input disabled type="range" id="blue-channel" min="0" max="255" step="1" value="212"></label>
    </section>
    <script src="js/app.js"></script>
 </body>
