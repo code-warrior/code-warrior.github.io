@@ -35,28 +35,26 @@ span {
 
 section {
    margin: 18px auto;
-}
 
-section:nth-of-type(1),
-section:nth-of-type(5)
-{
-   line-height: 1;
-   text-align: center;
-
-   code {
+   &:nth-of-type(1),
+   &:nth-of-type(5) {
       line-height: 1;
-      letter-spacing: -4px;
-      word-spacing: -12px;
-      padding: 0 8px;
-      margin: auto;
       text-align: center;
-      display: inline-block;
-      font-family: 'Cutive Mono', sans-serif;
-      font-size: 2rem;
-   }
-}
 
-section:nth-of-type(5)
-{
-   margin-top: 60px;
+      code {
+         line-height: 1;
+         letter-spacing: -4px;
+         word-spacing: -12px;
+         padding: 0 8px;
+         margin: auto;
+         text-align: center;
+         display: inline-block;
+         font-family: 'Cutive Mono', sans-serif;
+         font-size: 2rem;
+      }
+   }
+
+   &:nth-of-type(5) {
+      margin-top: 60px;
+   }
 }
