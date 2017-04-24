@@ -1,4 +1,5 @@
 body:before {
+   display: block;
    position: fixed;
    top: 50vh;
    left: 0;
