@@ -1,0 +1,20 @@
+collegeData({
+  "state":[
+    {
+      "name":"New York",
+      "city":[
+        {
+          "name": "New York City",
+          "borough": [
+            {
+              "name": "Manhattan",
+              "colleges": [
+                "BMCC", "NYU", "Columbia University"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+});

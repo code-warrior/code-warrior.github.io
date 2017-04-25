@@ -1,0 +1,19 @@
+body {
+  font-family: sans-serif;
+}
+
+div:nth-of-type(1) {
+  padding-left: 20px;
+}
+
+div:nth-of-type(2) {
+  padding-left: 40px;
+}
+
+div:nth-of-type(3) {
+  padding-left: 60px;
+}
+
+div:nth-of-type(4) {
+  padding-left: 80px;
+}
