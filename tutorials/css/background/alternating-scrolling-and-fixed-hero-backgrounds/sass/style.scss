@@ -1,0 +1,87 @@
+@import 'reset';
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,300');
+
+$transparency: 0.9;
+$first-image:  '../img/a.jpg';
+$second-image: '../img/b.jpg';
+$third-image:  '../img/c.jpg';
+$fourth-image: '../img/d.jpg';
+$fifth-image:  '../img/e.jpg';
+
+body {
+   line-height: 1.5;
+   font-family: 'Open Sans', sans-serif;
+   font-weight: 300;
+}
+
+p {
+   margin: 24px;
+}
+
+div.transparent-background-container {
+   width: 80%;
+   margin: auto;
+   padding: 12px;
+}
+
+.hero {
+   left: 0;
+
+   &:nth-of-type(1) {
+      background: url($first-image) scroll 0 0 / cover;
+
+      > .transparent-background-container {
+         color: rgb(242, 235, 217);
+         background-color: rgba(60, 59, 57, $transparency);
+      }
+   }
+
+   &:nth-of-type(2) {
+      background: url($second-image) fixed 0 0 / cover;
+
+      > .transparent-background-container {
+         color: rgb(245, 224, 181);
+         background-color: rgba(77, 84, 94, $transparency);
+      }
+   }
+
+   &:nth-of-type(3) {
+      background: url($third-image) scroll 0 0 / cover;
+
+      > .transparent-background-container {
+         color: rgb(0, 36, 58);
+         background-color: rgba(227, 194, 159, $transparency);
+      }
+   }
+
+   &:nth-of-type(4) {
+      background: url($fourth-image) fixed 0 0 / cover;
+
+      > .transparent-background-container {
+         color: rgb(35, 19, 82);
+         background-color: rgba(229, 180, 122, $transparency);
+      }
+   }
+
+   &:nth-of-type(5) {
+      background: url($fifth-image) scroll 0 0 / cover;
+
+      > .transparent-background-container {
+         color: rgb(74, 75, 77);
+         background-color: rgba(255, 255, 255, $transparency);
+      }
+   }
+}
+
+footer {
+   text-align: center;
+   padding: {
+      top: 24px;
+      bottom: 24px;
+   }
+
+   a {
+      color: red;
+      text-decoration: none;
+   }
+}

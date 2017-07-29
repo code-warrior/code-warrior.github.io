@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,300");
+a, abbr, address, article, aside, audio, b, blockquote, body, canvas, caption,
+cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption,
+figure, footer, form, h1, h2, h3, h4, h5, h6, header, html, i, iframe, img, ins,
+kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby,
+section, samp, small, span, strong, sub, summary, sup, table, tbody, td, tfoot,
+th, thead, time, tr, ul, var, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, footer, header, menu, nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  line-height: 1.5;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+
+p {
+  margin: 24px;
+}
+
+div.transparent-background-container {
+  width: 80%;
+  margin: auto;
+  padding: 12px;
+}
+
+.hero {
+  left: 0;
+}
+.hero:nth-of-type(1) {
+  background: url("../img/a.jpg") scroll 0 0/cover;
+}
+.hero:nth-of-type(1) > .transparent-background-container {
+  color: #f2ebd9;
+  background-color: rgba(60, 59, 57, 0.9);
+}
+.hero:nth-of-type(2) {
+  background: url("../img/b.jpg") fixed 0 0/cover;
+}
+.hero:nth-of-type(2) > .transparent-background-container {
+  color: #f5e0b5;
+  background-color: rgba(77, 84, 94, 0.9);
+}
+.hero:nth-of-type(3) {
+  background: url("../img/c.jpg") scroll 0 0/cover;
+}
+.hero:nth-of-type(3) > .transparent-background-container {
+  color: #00243a;
+  background-color: rgba(227, 194, 159, 0.9);
+}
+.hero:nth-of-type(4) {
+  background: url("../img/d.jpg") fixed 0 0/cover;
+}
+.hero:nth-of-type(4) > .transparent-background-container {
+  color: #231352;
+  background-color: rgba(229, 180, 122, 0.9);
+}
+.hero:nth-of-type(5) {
+  background: url("../img/e.jpg") scroll 0 0/cover;
+}
+.hero:nth-of-type(5) > .transparent-background-container {
+  color: #4a4b4d;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+footer {
+  text-align: center;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+footer a {
+  color: red;
+  text-decoration: none;
+}

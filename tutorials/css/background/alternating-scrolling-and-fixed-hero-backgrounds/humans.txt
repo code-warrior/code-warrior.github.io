@@ -1,0 +1,44 @@
+/* THANKS */
+    Font: Open Sans
+    URL: https://fonts.google.com/specimen/Open+Sans
+    Author: Steve Matteson
+
+    Ipsum: Veggie Ipsum
+    URL: http://veggieipsum.com/
+    Author: Peopledesign
+    Author URL: http://peopledesign.com/
+
+    First background image: Background
+    Image URL: https://www.flickr.com/photos/maggie-me/6055839500/in/photolist-ae8L6S-4LXRpf-4LXRSY-8Rq2tc-3cS1g8-awgfpz-8RSJz7-bq39eW-o9tHd-4LXQXQ-4LTFRD-4Kvi9d-4LXRL5-9oWn8v-astZkz-aswC2s-8gQ6uM-6KA2Jf-48fga3-v1FQMn-vXyqq2-vF4Xcv-3KdqDi-8n8qok-xpjq2-3cWakj-ae5UBa-vXyvtD-vVf3Ru-4iEmvB-hgGXq-hgPse-6WHF7d-4DP3eo-6WDETr-9wu9By-oEzgRj-35GTrN-9kGkVM-8g49mC-qwaxqn-8rezoN-8nbxUY-48mP2z-4LXU6q-3KhKrA-HEvwc-9irsNT-4LTJCr-4LTJsM
+    Author: Joe
+    Author URL: https://www.flickr.com/photos/maggie-me/
+    License: Attribution 2.0 Generic (CC BY 2.0)
+    License URL: https://creativecommons.org/licenses/by/2.0/
+
+    Second background image: Background
+    Image URL: https://www.flickr.com/photos/maggie-me/6207414356/in/photolist-aswC2s-8gQ6uM-6KA2Jf-48fga3-v1FQMn-vXyqq2-vF4Xcv-3KdqDi-8n8qok-xpjq2-3cWakj-ae5UBa-vXyvtD-vVf3Ru-4iEmvB-hgGXq-hgPse-6WHF7d-4DP3eo-6WDETr-9wu9By-oEzgRj-35GTrN-9kGkVM-8g49mC-qwaxqn-8rezoN-8nbxUY-48mP2z-4LXU6q-3KhKrA-HEvwc-9irsNT-4LTJCr-4LTJsM-g3GKAG-8YABAZ-8u6wT-TNua3u-bvmuj4-4iWMq-4Kvi17-bGKUBX-42Evt-bCX5fF-dJAZa6-bCX5g2-9idPU9-bhWkzg-9kvaFS
+    Author: Joe
+    Author URL: https://www.flickr.com/photos/maggie-me/
+    License: Attribution-NonCommercial-NoDerivs 2.0 Generic (CC BY-NC-ND 2.0)
+    License URL: https://creativecommons.org/licenses/by-nc-nd/2.0/
+
+    Third background image: Background
+    Image URL: https://www.flickr.com/photos/maggie-me/6835581528/in/photolist-bq39eW-o9tHd-4LXQXQ-4LTFRD-4Kvi9d-4LXRL5-9oWn8v-astZkz-aswC2s-8gQ6uM-6KA2Jf-48fga3-v1FQMn-vXyqq2-vF4Xcv-3KdqDi-8n8qok-xpjq2-3cWakj-ae5UBa-vXyvtD-vVf3Ru-4iEmvB-hgGXq-hgPse-6WHF7d-4DP3eo-6WDETr-9wu9By-oEzgRj-35GTrN-9kGkVM-8g49mC-qwaxqn-8rezoN-8nbxUY-48mP2z-4LXU6q-3KhKrA-HEvwc-9irsNT-4LTJCr-4LTJsM-g3GKAG-8YABAZ-8u6wT-TNua3u-bvmuj4-4iWMq-4Kvi17
+    Author: Joe
+    Author URL: https://www.flickr.com/photos/maggie-me/
+    License: Attribution 2.0 Generic (CC BY 2.0)
+    License URL: https://creativecommons.org/licenses/by/2.0/
+
+    Fourth background image: Todays Background
+    Image URL: https://www.flickr.com/photos/ckrobbins/9875935656/in/photolist-g3GKAG-8YABAZ-8u6wT-TNua3u-bvmuj4-4iWMq-4Kvi17-bGKUBX-42Evt-bCX5fF-dJAZa6-bCX5g2-9idPU9-bhWkzg-9kvaFS-9j6Mbu-fgAzyG-rL8rG3-6v3bfW-5HcV8p-7bsoV3-dBb6GR-4htWUn-NhqAc-awSgid-NhqCk-6iMPtb-8me9t3-8Dq9JY-oFcbtg-b5Q2rt-7hqekH-5F1VZ9-8DqaA1-83TUjL-7KmGpo-i3uwPL-aemT2R-7suDnE-pp3pE2-dLtWMP-8DcW6j-rJnMm4-9VwKdW-axanuy-6apuKW-8KFNDe-aTujmM-az2iig-8j6tg7
+    Author: Keith Robbins
+    Author URL: https://www.flickr.com/photos/ckrobbins/
+    License: Attribution-NonCommercial-NoDerivs 2.0 Generic (CC BY-NC-ND 2.0)
+    License URL: https://creativecommons.org/licenses/by-nc-nd/2.0/
+
+    Fifth background image: Background photo
+    Image URL: https://www.flickr.com/photos/hannumakarainen/9365488908/in/photolist-fgAzyG-rL8rG3-SN1uAA-bk1m1-5PCbaP-WGiKUD-haNWW4-rv3zhP-6iMPtb-4j4JWB-UR5HpD-4qXNPa-bn4JLk-2ZQBAk-5ufDYz-nFzJPC-bn4JVP-4qPGjn-q2PsGF-9tN5Hq-9Yf1fi-bn4JAF-V1vwST-8QwzXk-3bWdxB-9z8EBp-5gP1U-55c61C-e6ofXh-nBxRVu-7Hfjyk-dV58TH-sY7LQ-fScpK7-9zbFqu-pSsr7k-zPMeZ-jVK2By-Hh78VV-66ygi-9z8EyD-3aMdzT-7ueDNZ-J8DeEB-jVK42h-f1S2i9-aa3wit-2QTbu9-p4CLkT-qrxE9L
+    Author: Hannu Makarainen
+    Author URL: https://www.flickr.com/photos/hannumakarainen/
+    License: Attribution-ShareAlike 2.0 Generic (CC BY-SA 2.0)
+    License URL: https://creativecommons.org/licenses/by-sa/2.0/
