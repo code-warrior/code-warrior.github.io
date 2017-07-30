@@ -25,8 +25,6 @@ div.transparent-background-container {
 }
 
 .hero {
-   left: 0;
-
    &:nth-of-type(1) {
       background: url($first-image) scroll 0 0 / cover;
 
