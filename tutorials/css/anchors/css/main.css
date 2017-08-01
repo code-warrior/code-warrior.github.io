@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+
+body {
+   font-family: 'Roboto Slab', serif;
+}
+
+abbr {
+   text-decoration: none;
+}
+
+a:link {
+   text-decoration: none;
+   padding-bottom: 3px;
+   border-bottom: 1px solid purple;
+}
+
+a:visited {
+   color: pink;
+}
+
+a:hover {
+   text-decoration: overline;
+}
+
+a:active {
+   color: black;
+}
