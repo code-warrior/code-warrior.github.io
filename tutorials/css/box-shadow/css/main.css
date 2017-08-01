@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+
+body {
+   font-family: 'Roboto Slab', serif;
+}
+
+blockquote:first-of-type {
+   background-color: rgb(227,227,227);
+   margin-top: 50px;
+   padding: 20px;
+   box-shadow: 0 0 50px rgb(127,127,127);
+}
+
+blockquote:last-of-type {
+   background-color: rgb(227,227,227);
+   margin-top: 50px;
+   padding: 20px;
+   box-shadow: 12px 12px 0 rgb(156,156,156);
+}
+
+blockquote::after {
+   white-space: pre;
+   content: '\A\A' '— ' attr(cite);
+}
