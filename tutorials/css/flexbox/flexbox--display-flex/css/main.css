@@ -1,0 +1,14 @@
+h1, p, ul {
+   margin: 20px;
+}
+
+ul {
+   display: flex;
+   border: 1px solid black;
+}
+
+@media (max-width: 768px) {
+   ul {
+      display: block;
+   }
+}
