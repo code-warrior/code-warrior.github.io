@@ -1,0 +1,28 @@
+@keyframes counter {
+   from { /* “from” is synonymous with 0% */
+      background-image: url('../img/1.jpg');
+   }
+
+   25% {
+      background-image: url('../img/2.jpg');
+   }
+
+   50% {
+      background-image: url('../img/3.jpg');
+   }
+
+   75% {
+      background-image: url('../img/4.jpg');
+   }
+
+   to { /* “to” is synonymous with 100% */
+      background-image: url('../img/5.jpg');
+   }
+}
+
+div {
+   animation: 5s linear 0s infinite normal none running counter;
+   width: 100vw;
+   height: 100vh;
+   background-size: cover;
+}
