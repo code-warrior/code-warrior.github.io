@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="utf-8">
+   <title>Including jQuery via CDN</title>
+</head>
+<body>
+<script src="../../../libs/jquery/jquery-3.2.1.min.js"></script>
+<script>
+/*jslint browser: true, single*/
+/*global $, window */
+$(document).ready(function () {
+    'use strict';
+
+    window.alert('Document loaded; jQuery included via local folder');
+});
+</script>
+</body>
+</html>
