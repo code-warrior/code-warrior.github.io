@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,600,600i&amp;subset=latin-ext');
+@import url('https://fonts.googleapis.com/css?family=Inconsolata');
+
+html {
+   font: 1rem 'Open Sans', sans-serif;
+}
+
+body {
+   margin: 8px;
+}
+
+h1 {
+   font-size: 2rem;
+   margin: 16px 0;
+}
+
+p {
+   margin: 24px 0;
+}
+
+em,
+i {
+   font-style: italic;
+}
+
+code {
+   font-family: Inconsolata, monospace;
+}
+
+div.code-example {
+   border-radius: 6px;
+   background-color: #fadeed;
+   padding: 20px;
+   font-family: Inconsolata, monospace;
+   white-space: pre;
+}
