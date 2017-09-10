@@ -39,3 +39,7 @@ div.code-example {
    margin: auto;
    width: 90%;
 }
+
+abbr {
+   text-decoration: none;
+}
