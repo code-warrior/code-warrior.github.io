@@ -20,7 +20,7 @@ window.onload = function () {
     function updateBackgroundColor() {
 
         // The “R” in “rgb(R, G, B)” is consistently at index 4.
-        const INDEX_OF_R_IN_RGB = 4
+        const INDEX_OF_R_IN_RGB = 4;
         const OFFSET = 2;
 
         let hueValue = hueSlider.value,
