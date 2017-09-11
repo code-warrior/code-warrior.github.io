@@ -1,0 +1,21 @@
+h1 {
+   margin: 32px 0 38px 0;
+   text-align: center;
+}
+
+div {
+   margin: 0 auto;
+   width: 99%;
+}
+
+video {
+   margin: auto;
+   border: none;
+   width: 100%;
+}
+
+main {
+   max-width: 960px;
+   margin: 0 auto;
+   padding: 0 20px;
+}
