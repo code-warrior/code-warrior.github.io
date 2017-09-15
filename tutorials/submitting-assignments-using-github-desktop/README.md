@@ -24,7 +24,7 @@ Follow every step of these instructions carefully and avoid submitting your assi
 ![](img/Screenshot 2017-07-16 11.12.07.png)
 8. Along the left column, under **GitHub**, you should see your cloned repository. Context click it and choose `Open in Finder` or `Open in Explorer` if you’re using Windows.
 ![](img/Screenshot 2017-07-16 11.25.49.png)
-9. Add your files to the repo’s folder, or make your changes to any existing files.
+9. Do all your work in this folder, committing and syncing often.
 ![](img/Screenshot 2017-07-16 11.38.51.png)
 ![](img/Screenshot 2017-07-16 11.46.05.png)
 10. Return to the `GitHub Desktop` client. Your changes should appear as uncommitted changes next to `History`. In the screenshot below, for example, I added `IMG_0456.jpg` and made a change to `index.html`. Both are considered `2 Uncommitted Changes`.
