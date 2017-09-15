@@ -4,7 +4,7 @@ Burden: *~30 minutes*
 
 Follow every step of these instructions carefully and avoid submitting your assignment in haste or with distractions around you, as these will no doubt hinder your ability to submit successfully.
 
-**Note**: Before proceeding, make sure you have the [GitHub Desktop client](https://desktop.github.com) installed.
+**Note**: Before proceeding, make sure you’re using the latest stable release of GitHub Desktop. As of this writing, version 223, Hasty Things Done Hastily, is the latest. **Do not use the beta version**. If you need to download GitHub Desktop, go [here](https://desktop.github.com) and scroll all the way to the bottom of the page for the latest stable version.
 
 1. Log in to [GitHub](https://github.com/login) and visit the assignment’s repository, or repo, page. For example, I’d visit `https://github.com/code-warrior/assignment-1`.
 ![](img/Screenshot 2017-07-16 10.25.00.png)
