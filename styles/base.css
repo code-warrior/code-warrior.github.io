@@ -49,11 +49,28 @@ abbr {
    text-decoration: none;
 }
 
+ul li,
+ol li {
+   margin: 6px 0;
+}
+
 ul li {
-   margin: 4px 0;
    list-style-type: disc;
+}
+
+ol li {
+   list-style-type: decimal;
 }
 
 ul li ul li {
    list-style-type: circle;
+}
+
+ol li ol li {
+   list-style-type: lower-alpha;
+}
+
+ul li ul,
+ol li ol {
+   margin-left: 1rem;
 }
