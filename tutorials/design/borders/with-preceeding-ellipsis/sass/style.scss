@@ -1,0 +1,27 @@
+@import url('../../../../../styles/reset.css');
+@import url('../../../../../styles/base.css');
+
+$color--border: #000;
+$color--bullet: rgb(155, 155, 155);
+
+body {
+   margin: auto;
+   width: 90vw;
+}
+
+hr {
+   position: relative;
+   border: .5px solid $color--border;
+   height: 0;
+   color: $color--border;
+
+   &::before {
+      position: absolute;
+      top: -7px;
+      left: -24.9px;
+      line-height: 1.1;
+      color: $color--bullet;
+      font-size: 12px;
+      content: '• • •';
+   }
+}

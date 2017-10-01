@@ -1,0 +1,23 @@
+@charset "UTF-8";
+@import url("../../../../../styles/reset.css");
+@import url("../../../../../styles/base.css");
+body {
+  margin: auto;
+  width: 90vw;
+}
+
+hr {
+  position: relative;
+  border: 0.5px solid #000;
+  height: 0;
+  color: #000;
+}
+hr::before {
+  position: absolute;
+  top: -7px;
+  left: -24.9px;
+  color: #9b9b9b;
+  font-size: 12px;
+  line-height: 1.1;
+  content: '• • •';
+}
