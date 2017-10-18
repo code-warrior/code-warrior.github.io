@@ -6,7 +6,7 @@ Follow every step of these instructions carefully and avoid submitting your assi
 
 **Note**: Before proceeding, make sure you’re using the latest stable release of GitHub Desktop. As of this writing, version 223, Hasty Things Done Hastily, is the latest. **Do not use the beta version**. If you need to download GitHub Desktop, go [here](https://desktop.github.com) and scroll all the way to the bottom of the page for the latest stable version.
 
-1. Log in to [GitHub](https://github.com/login) and visit the assignment’s repository, or repo, page. For example, I’d visit `https://github.com/code-warrior/assignment-1`.
+1. Log in to [GitHub](https://github.com/login) and visit the assignment’s repository, or repo, page. For this example, I’ll use a dummy, or slug, repo called `assignment-1`, `https://github.com/code-warrior/assignment-1`.
 ![](img/Screenshot 2017-07-16 10.25.00.png)
 2. Fork the `assignment-1` repo by clicking the word `fork` in the upper right hand corner.
 ![](img/Screenshot 2017-07-16 10.25.00 2.png)
