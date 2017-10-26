@@ -1,0 +1,8 @@
+li > span:not(.fa) {
+   display: inline-block;
+   width: 160px;
+}
+
+li > ul {
+   margin-top: 8px;
+}

@@ -1,0 +1,19 @@
+h1, h2, h3 {
+   font-family: 'Saira Extra Condensed', sans-serif;
+}
+
+h1 {
+   font-size: 4rem;
+}
+
+h2 {
+   font-size: 2rem;
+}
+
+h3 {
+   font-size: 1.5rem;
+}
+
+h1 > span {
+   border-bottom: 1px solid #aaa;
+}

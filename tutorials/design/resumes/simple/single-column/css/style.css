@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,300i,400i');
+@import url('https://fonts.googleapis.com/css?family=Saira+Extra+Condensed');
+@import url('header.css');
+@import url('headings.css');
+@import url('lists.css');
+
+body {
+   font: 300 1rem / 1.5 'Open Sans', sans-serif;
+   background-color: #f0f0f0;
+   color: #222;
+}
+
+b, strong {
+   font-weight: 400;
+}
+
+i, em {
+   font-style: italic;
+}
+
+main {
+   padding-top: 24px;
+}
+
+progress[value] {
+   -webkit-appearance: none;
+}
+
+.fa-angle-double-right {
+   color: #666;
+   padding-right: 8px;
+}
+
+.sub-item:not(:last-of-type) {
+   margin-bottom: 16px;
+}
+
+#objective {
+   background-color: #fff;
+   text-align: center;
+   padding: 24px 0;
+}
+
+#objective > p {
+   margin: auto;
+   max-width: 1024px;
+}
+
+#contact, #education, #experience, #skills {
+   margin: 0 auto 36px;
+   max-width: 1024px;
+}
