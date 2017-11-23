@@ -84,3 +84,7 @@ ul li ul,
 ol li ol {
    margin-left: 1rem;
 }
+
+pre {
+   font-family: Inconsolata, monospace;
+}
