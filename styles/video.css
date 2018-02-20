@@ -1,5 +1,5 @@
 h1 {
-   margin: 32px 0 38px 0;
+   margin: 32px 0 38px;
    text-align: center;
 }
 
@@ -18,4 +18,8 @@ main {
    max-width: 960px;
    margin: 0 auto;
    padding: 0 20px;
+}
+
+ul > li {
+   margin: 16px 0;
 }
