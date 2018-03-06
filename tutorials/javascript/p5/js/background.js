@@ -1,6 +1,7 @@
 'use strict';
 
-const WIDTH = 640,
+const
+    WIDTH = 640,
     HEIGHT = 480,
     BG_COLOR = `#c0ffee`;
 

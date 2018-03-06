@@ -1,6 +1,7 @@
 'use strict';
 
-const WIDTH = 480,
+const
+    WIDTH = 480,
     HEIGHT = 480,
     ELLIPSE_X = 160,
     ELLIPSE_Y = 160,
