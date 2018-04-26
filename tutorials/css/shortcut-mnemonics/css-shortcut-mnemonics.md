@@ -109,5 +109,18 @@ margin: 4px 10px 12px 20px;
 ```css
 border: 3px double red;
 ```
+## Animation
+
+**Acronym:** DTDIDFPN
+
+**Mnemonic:** Pending
+
+**Stands for...** `animation-duration animation-timing-function animation-delay animation-iteration-count animation-direction animation-fill-mode animation-play-state animation-name`
+
+**Example:**
+
+```css
+animation: 0s ease 0s 1 normal none running none;
+```
 
 Any ideas for better mnemonics? Send suggestions to `roy@thecodeeducators.com`.
