@@ -1,0 +1,10 @@
+body {
+   margin: auto;
+   width: 960px;
+}
+
+p:nth-child(3) {
+   margin-left: 40px;
+   /* padding-left: 40px; */
+   text-indent: -40px;
+}
