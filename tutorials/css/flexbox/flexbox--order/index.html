@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width,initial-scale=1.0">
+   <title>Flex: The Order Property</title>
+   <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+   <h1>Flex’s Order Property</h1>
+
+   <h2 id="flex-container">
+      <span>n</span> <span>o</span> <span>e</span> <span>l</span>
+   </h2>
+   <div id="report">
+      <span>order: "initial"</span> <span>order: "initial"</span> <span>order: "initial"</span> <span>order: "initial"</span>
+   </div>
+
+   <div id="buttons">
+      <button id="noel">Render the word “noel”</button>
+      <button id="leon">Render the word “leon”</button>
+      <button id="leno">Render the word “leno”</button>
+      <button id="elon">Render the word “elon”</button>
+   </div>
+   <ul>
+      <li>Each of the letters above is wrapped in a <code>span</code> tag. On page load, the <code>order</code> property is omitted, which is equivalent to <code>initial</code>, or <code>0</code>.</li>
+      <li>Colors are mapped to the position of the <code>span</code> element in the DOM: red to first position, green to second, blue to third, and black to fourth.</li>
+      <li>Click the buttons above to update the <code>order</code> property of each letter.</li>
+   </ul>
+   <script src="js/app.js"></script>
+</body>
+</html>
+
