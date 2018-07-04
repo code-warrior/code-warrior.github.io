@@ -1,0 +1,83 @@
+////
+/// The card-flipping event is composed of three CSS properties:
+///
+/// backface-visibility, which shows the back of the image when the card is flipped,
+///    while also hiding the content of the card when the image is at rest.
+///
+/// transition, which creates the card-flipping animation on hover.
+///
+/// transform, which rotates the card.
+////
+
+////
+/// The intrinsic dimensions of each image are 438w × 438h.
+////
+$width--card:  438px;
+$height--card: $width--card;
+
+////
+/// This variable controls the duration of the image flip and the figcaption flip.
+////
+$transition-duration: .7s;
+
+figure {
+   position: relative;
+   width: $width--card;
+   height: $height--card;
+
+   img {
+      transition: $transition-duration;
+
+      ////
+      /// Change the value to “hidden” if you don’t want the image to be seen when
+      /// the card is flipped. This would place more emphasis on the content rendered
+      /// inside the figcaption element.
+      ///
+      /// “visible” is the initial value.
+      ////
+      backface-visibility: visible;
+   }
+
+   figcaption {
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      transform: rotateY(180deg); // Rotate along the Y axis
+      transition: $transition-duration;
+
+      ////
+      /// Take up the entire width of the card, not just the width required to render
+      /// the content, and do the same for the height.
+      ////
+      width: 100%;
+      height: 100%;
+
+      ////
+      /// Hide the back of the content so the user doesn’t see the content in
+      /// reverse when the card is at rest.
+      ////
+      backface-visibility: hidden;
+   }
+
+   &:hover {
+      img {
+
+         ////
+         /// On hover, rotate the image along the Y axis 180°, then make the image
+         /// 30% opaque.
+         ////
+         transform: rotateY(180deg);
+         opacity: .3;
+      }
+
+      figcaption {
+
+         ////
+         /// On hover, rotate the figcaption element that contains the content,
+         /// long the Y axis back to 0°.
+         ////
+         transform: rotateY(0);
+      }
+   }
+}
