@@ -1,0 +1,26 @@
+@import url("http://fonts.googleapis.com/css?family=Lato:300,300italic,700&amp;subset=latin,latin-ext");
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+header {
+  text-align: center;
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+  width: 70%;
+}
+
+div {
+  flex-basis: 0;
+  flex-grow: 1;
+  margin: 0 10px;
+  text-align: center;
+}
+
+div img {
+  border-radius: 50%;
+}

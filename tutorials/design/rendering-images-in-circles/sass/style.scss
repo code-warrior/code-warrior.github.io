@@ -1,0 +1,44 @@
+@import url('http://fonts.googleapis.com/css?family=Lato:300,300italic,700&amp;subset=latin,latin-ext');
+
+$width-of-figure: 240px;
+
+body {
+   font-family: 'Lato', sans-serif;
+}
+
+header {
+   text-align: center;
+}
+
+main {
+   // Set the children of <main> as flex items.
+   display: flex;
+
+   // Evenly spread the remaining space around the flex items.
+   justify-content: space-around;
+
+   // Center the container.
+   margin: auto;
+
+   // Have the container be at most 70% of the parent.
+   width: 70%;
+}
+
+div {
+   // Set flex-basis to 0, from the default of auto, so…
+   flex-basis: 0;
+
+   // …flex-grow evenly distributes 1:1:1 ratios.
+   flex-grow: 1;
+
+   // Set left and right margins to 10px.
+   margin: 0 10px;
+
+   // Center align the <img> and <p> elements inside every <div>.
+   text-align: center;
+
+   img {
+      // Set the radius to no more than 50% for perfect circles.
+      border-radius: 50%;
+   }
+}
