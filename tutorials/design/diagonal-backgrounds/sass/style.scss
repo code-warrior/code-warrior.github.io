@@ -1,0 +1,72 @@
+@import 'base';
+@import 'variables';
+
+.banner {
+   display: flex;
+   overflow: hidden;
+
+   &--image {
+      flex-basis: 50%;
+
+      img {
+         position: relative;
+         width: 100%;
+         height: 100%;
+      }
+   }
+
+   &--content {
+      position: relative;
+      flex-basis: 50%;
+      z-index: 1;
+      text-align: center;
+
+      &.content-on-left {
+         background-color: $bg-color--content-on-left;
+      }
+
+      &.content-on-right {
+         background-color: $bg-color--content-on-right;
+      }
+   }
+}
+
+.content-on-left,
+.content-on-right {
+   &::before {
+      position: absolute;
+      top: 0;
+      z-index: -1;
+      width: $width--skewed-layer;
+      height: calc(100% + 1px);
+      content: '';
+   }
+}
+
+.content-on-left {
+   color: darken($color--links--content-on-left, 10%);
+
+   &::before {
+      left: calc(100% - (#{$width--skewed-layer - $shift-distance}));
+      transform: skew($tilt);
+      background-color: $bg-color--content-on-left;
+   }
+
+   a {
+      color: $color--links--content-on-left;
+   }
+}
+
+.content-on-right {
+   color: lighten($color--links--content-on-right, 12%);
+
+   &::before {
+      left: -$shift-distance;
+      transform: skew(-$tilt);
+      background-color: $bg-color--content-on-right;
+   }
+
+   a {
+      color: $color--links--content-on-right;
+   }
+}
