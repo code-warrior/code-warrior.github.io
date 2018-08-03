@@ -1,0 +1,49 @@
+@import 'base';
+@import 'variables';
+
+#container {
+   display: flex;
+   flex-wrap: wrap;
+   margin: auto;
+   width: $width--desktop-large;
+
+   @media (max-width: ($width--desktop-large + 80)) {
+      width: $width--desktop-small;
+   }
+
+   @media (max-width: ($width--desktop-small + 80)) {
+      width: 92.5%;
+   }
+}
+
+.item {
+   position: relative;
+   width: 50%;
+   line-height: 0;
+
+   @media (max-width: $width--desktop-small + 80) {
+      width: 100%;
+   }
+
+   &--image {
+      width: 100%;
+   }
+
+   &--heading {
+      position: absolute;
+      top: 24px;
+      margin-right: 48px;
+      background-color: $bg-color--content;
+      padding: 12px 24px;
+      line-height: 1.2;
+   }
+
+   &--caption {
+      position: absolute;
+      bottom: 24px;
+      left: 0;
+      background-color: $bg-color--content;
+      padding: 12px;
+      line-height: 1;
+   }
+}
