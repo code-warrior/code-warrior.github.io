@@ -15,7 +15,7 @@ article, aside, details, figcaption, figure, footer, header, menu, nav,
 section {
    display: block;
 }
-body {
+html {
    line-height: 1;
 }
 ol, ul {
