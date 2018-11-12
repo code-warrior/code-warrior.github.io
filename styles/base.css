@@ -88,3 +88,7 @@ ol li ol {
 pre {
    font-family: Inconsolata, monospace;
 }
+
+a {
+   text-decoration: none;
+}
