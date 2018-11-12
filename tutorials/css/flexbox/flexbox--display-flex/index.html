@@ -5,7 +5,25 @@
    <title>Flexbox Example — display: flex</title>
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link rel="stylesheet" href="../../../../styles/reset.css">
-   <link rel="stylesheet" href="css/main.css">
+   <link rel="stylesheet" href="../../../../styles/base.css">
+   <style>
+ul {
+   display: flex;
+}
+
+ul li {
+   border-top: 1px solid black;
+   border-bottom: 1px solid black;
+   list-style: none;
+   padding-right: 24px;
+}
+
+@media (max-width: 768px) {
+   ul {
+      display: block;
+   }
+}
+   </style>
 </head>
 <body>
    <h1>Flexbox — display: flex</h1>
