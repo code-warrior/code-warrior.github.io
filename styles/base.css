@@ -39,7 +39,10 @@ i {
 }
 
 code {
-   font-family: Inconsolata, monospace;
+   border-radius: 4px;
+   background-color: #f5dcdc;
+   padding: 2px 4px;
+   font-family: "IBM Plex Mono", Inconsolata, monospace;
 }
 
 div.code-example {
