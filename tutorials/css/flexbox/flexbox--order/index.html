@@ -4,7 +4,91 @@
    <meta charset="utf-8">
    <meta name="viewport" content="width=device-width,initial-scale=1.0">
    <title>Flex: The Order Property</title>
-   <link rel="stylesheet" href="css/style.css">
+   <meta name="viewport" content="width=device-width,initial-scale=1.0">
+   <link rel="stylesheet" href="../../../../styles/reset.css">
+   <link rel="stylesheet" href="../../../../styles/base.css">
+   <style>
+body {
+  margin: auto;
+  width: 720px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+h2 {
+  text-align: center;
+  font-size: 4rem;
+  margin: 0;
+}
+
+button {
+  cursor: pointer;
+  padding: 10px;
+  font-size: .8rem;
+  font-weight: 300;
+}
+
+button:not(:last-of-type) {
+   margin-right: 8px;
+}
+
+ul li {
+  margin-bottom: 20px;
+}
+
+span:nth-child(1) {
+  color: #f00;
+}
+
+span:nth-child(2) {
+  color: #080;
+}
+
+span:nth-child(3) {
+  color: #00f;
+}
+
+span:nth-child(4) {
+  color: #000;
+}
+
+#buttons {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 44px;
+}
+
+#flex-container {
+   padding-bottom: 40px;
+   margin-bottom: 2px;
+}
+
+#flex-container,
+#report {
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid #c8c8c8;
+}
+
+#flex-container span,
+#report span {
+  display: inline-block;
+  width: 25%;
+  text-align: center;
+}
+
+#report {
+  margin-bottom: 44px;
+}
+
+#report > span {
+  padding: 12px;
+  font-family: "IBM Plex Mono", Inconsolata, monospace;
+}
+   </style>
 </head>
 <body>
    <h1>Flex’s Order Property</h1>
