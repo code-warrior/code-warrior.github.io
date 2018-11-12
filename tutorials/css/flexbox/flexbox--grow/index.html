@@ -5,7 +5,56 @@
    <title>Flexbox Example — flex-grow</title>
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <link rel="stylesheet" href="../../../../styles/reset.css">
-   <link rel="stylesheet" href="css/main.css">
+   <link rel="stylesheet" href="../../../../styles/base.css">
+   <style>
+ul {
+   padding: 0;
+   display: flex;
+   margin: 0 auto;
+   border: 1px solid #ddd;
+   width: 600px;
+}
+
+li {
+   width: 120px;
+   flex-grow: initial;
+}
+
+li:nth-child(1) {
+   background-color: hsl(194, 100%, 50%);
+}
+
+li:nth-child(2) {
+   background-color: hsl(194, 100%, 40%);
+}
+
+li:nth-child(3) {
+   background-color: hsl(194, 100%, 30%);
+}
+
+ul li {
+   margin: 0;
+   list-style: none;
+}
+
+@media (max-width: 768px) {
+   ul {
+      width: 600px;
+   }
+
+   li:nth-child(1) {
+      flex-grow: 1;
+   }
+
+   li:nth-child(2) {
+      flex-grow: 1;
+   }
+
+   li:nth-child(3) {
+      flex-grow: 1;
+   }
+}
+   </style>
 </head>
 <body>
    <h1>Flexbox Example – flex-grow</h1>
