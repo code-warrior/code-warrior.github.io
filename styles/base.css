@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Inconsolata');
 
 html {
-   font: 1rem 'Open Sans', sans-serif;
+   font: 1rem / 1.5 'Open Sans', sans-serif;
 }
 
 body {
