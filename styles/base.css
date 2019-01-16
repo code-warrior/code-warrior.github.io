@@ -40,14 +40,14 @@ i {
 
 code {
    border-radius: 4px;
-   background-color: #f5dcdc;
-   padding: 2px 4px;
+   background-color: #ffe9e9;
+   padding: 1px 2px;
    font-family: "IBM Plex Mono", Inconsolata, monospace;
 }
 
 div.code-example {
    border-radius: 6px;
-   background-color: #fadeed;
+   background-color: #ffe9e9;
    padding: 20px;
    font-family: Inconsolata, monospace;
    white-space: pre;
@@ -88,7 +88,9 @@ ol li ol {
    margin-left: 1rem;
 }
 
-pre {
+pre,
+code,
+kbd {
    font-family: Inconsolata, monospace;
 }
 
