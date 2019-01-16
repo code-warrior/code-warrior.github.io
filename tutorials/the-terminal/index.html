@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, minimum-scale=1.0">
+   <title>Basic Terminal Tutorial</title>
+   <link rel="stylesheet" href="../../styles/reset.css">
+   <link rel="stylesheet" href="http://www.thecodeeducators.com/css/normalize.css">
+   <link rel="stylesheet" href="../../styles/base.css">
+   <style>
+      body {
+         font-size: 1.1rem;
+         line-height: 1.4;
+      }
+
+      main {
+         max-width: 960px;
+         margin: 0 auto;
+         padding: 0 30px;
+      }
+
+      h1 {
+         text-align: center;
+      }
+
+      h1, h2 {
+         margin: 24px 0 0;
+      }
+
+      dt:not(:first-of-type) {
+         margin: 12px 0 0;
+      }
+
+      dt kbd {
+         background-color: transparent;
+         font-weight: bold;
+      }
+
+      kbd {
+         border-radius: 4px;
+         background-color: lightblue;
+         padding: 1px 2px;
+      }
+
+      kbd, code {
+         font-size: 1rem;
+      }
+
+      dd {
+         margin-top: 12px;
+         margin-bottom: 28px;
+      }
+   </style>
+</head>
+<body>
+   <main>
+      <h1>Basic Terminal Tutorial</h1>
+      <p>In the examples below, items in <code>CAPS</code> are filler content representing an actual file or folder on your computer. Items you type into The Terminal appear in <kbd>light blue</kbd>.</p>
+      <dl>
+         <dt><kbd>./</kbd></dt>
+         <dd>The current directory.</dd>
+
+         <dt><kbd>../</kbd></dt>
+         <dd>The parent of the current directory.</dd>
+
+         <dt><kbd>alias</kbd></dt>
+         <dd>Displays all keyboard aliases (shortcuts), usually in a file called <code>.bash_aliases</code>.</dd>
+
+         <dt><kbd>atom</kbd></dt>
+         <dd>Launches Atom, assuming the shell commands have been installed. Typing <kbd>atom .</kbd> opens the current folder in Atom and typing <kbd>atom FILE</kbd> opens <code>FILE</code> in Atom.</dd>
+
+         <dt><kbd>cat FILE</kbd></dt>
+         <dd>Displays the contents of <code>FILE</code>, then returns control to The Terminal.</dd>
+
+         <dt><kbd>cd</kbd></dt>
+         <dd>Changes directory to your home folder, <code>~/Users/YOUR_NAME</code>. Typing <kbd>cd FOLDER</kbd> changes into <code>FOLDER</code> and typing <kbd>cd ../FOLDER</kbd> changes into a directory called <code>FOLDER</code> in the current directory’s parent.</dd>
+
+         <dt><kbd>clear</kbd></dt>
+         <dd>Clears the screen of any content, placing the cursor at the top of The Terminal’s window.</dd>
+
+         <dt><kbd>cp FILE.txt COPY-OF-FILE.txt</kbd></dt>
+         <dd>Copies the file <code>FILE.txt</code> to a new file called <code>COPY-OF-FILE.txt</code></dd>
+
+         <dt><kbd>head FILE.html</kbd></dt>
+         <dd>Shows the first 10 lines of <code>FILE.html</code></dd>
+
+         <dt><kbd>history</kbd></dt>
+         <dd>Displays a history of all the typed commands into The Terminal.</dd>
+
+         <dt><kbd>ls</kbd></dt>
+         <dd>Displays the files and folders in the current directory, excluding those that start with a dot. Typing <kbd>ls -a</kbd> lists all files and folders that start with and without a dot. And, typing <kbd>ls -d .*</kbd> lists only files and folders that start with a dot.</dd>
+
+         <dt><kbd>man COMMAND</kbd></dt>
+         <dd>Displays the manual for <code>COMMAND</code>.</dd>
+
+         <dt><kbd>mkdir NEW_FOLDER</kbd></dt>
+         <dd>Creates a new folder called <code>NEW_FOLDER</code> in the current directory. Using the <code>-p</code> flag creates intermediate folders. For example, to create folder <code>C</code> inside folder <code>B</code> inside folder <code>A</code>, none of which exists, you’d run <kbd>mkdir -p A/B/C</kbd>.</dd>
+
+         <dt><kbd>mv FILE FOLDER/</kbd></dt>
+         <dd>Moves <code>FILE</code> inside <code>FOLDER</code>. <code>mv</code> is also used to rename a file. For example, <kbd>mv FILE FILE_WITH_NEW_NAME</kbd> renames <code>FILE</code> → <code>FILE_WITH_NEW_NAME</code></dd>
+
+         <dt><kbd>more FILE</kbd></dt>
+         <dd>Render the contents of <code>FILE</code> one screenful at a time. You will need to type <kbd>q</kbd> to exit.</dd>
+
+         <dt><kbd>open .</kbd></dt>
+         <dd>Opens the current folder in Mac OS X’s Finder. (This is a Mac-only command.)</dd>
+
+         <dt><kbd>rm FILE</kbd></dt>
+         <dd>Removes <code>FILE</code>. Some Linux and Mac OS systems don’t have a guard on the <code>rm</code> command, meaning that the user isn’t asked to verify the removal of a file. Because files removed with <code>rm</code> aren’t retrievable, use the <code>-i</code> flag so you can verify that, indeed, you want to remove a file. For example, <kbd>rm -i FILE</kbd> would ask if you want to <code>remove FILE?</code>.<br><br>To recursively remove a folder, run <kbd>rm -r FOLDER</kbd>; and, to forcefully and recursively remove a directory without interaction, run <kbd>rm -fr FOLDER</kbd>.</dd>
+
+         <dt><kbd>sudo COMMAND</kbd></dt>
+         <dd>Run <code>COMMAND</code> as the current user with privileged access.</dd>
+
+         <dt><kbd>tail FILE.html</kbd></dt>
+         <dd>Shows the last 10 lines of <code>FILE.html</code></dd>
+
+         <dt><kbd>touch FILE</kbd></dt>
+         <dd>Creates a new, empty file called <code>FILE</code>. If <code>FILE</code> exists, <code>touch</code> does nothing.</dd>
+      </dl>
+   </main>
+</body>
+</html>
