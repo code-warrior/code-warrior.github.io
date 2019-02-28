@@ -1,0 +1,33 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+
+body {
+   font-family: var(--typeface--reading);
+   font-weight: var(--extra-light);
+   margin: auto;
+   width: var(--width--body);
+}
+
+main {
+   display: flex;
+   justify-content: space-between;
+}
+
+div {
+   width: var(--width--image);
+}
+
+img {
+   width: 100%;
+}
+
+a {
+   text-decoration: none;
+}
+
+.photo-credit {
+   text-align: center;
+   font-size: var(--font-size--photo-credit);
+}

@@ -1,0 +1,12 @@
+:root {
+   --margin: 22px;
+   --typeface--level-1-heading: 'Patua One', cursive;
+   --typeface--reading: 'IBM Plex Sans', sans-serif;
+   --extra-light: 200;
+   --semi-bold: 600;
+   --font-size--level-1-heading: 4.5rem;
+   --font-size--level-2-heading: 1.125rem;
+   --font-size--photo-credit: .75rem;
+   --width--image: 300px;
+   --width--body: calc(3 * var(--width--image) + 40px);
+}
