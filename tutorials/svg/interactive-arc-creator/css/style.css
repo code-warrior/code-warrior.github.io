@@ -1,0 +1,68 @@
+header,
+p {
+   text-align: center;
+}
+
+main {
+   width: 560px;
+   margin: auto;
+}
+
+svg {
+   margin: auto;
+   display: block;
+   background: linear-gradient(#ff9f9155, #dd91ffaa);
+   width: 500px;
+   height: 500px;
+}
+
+code {
+   line-height: 40px;
+   padding: 12px 4px;
+   height: 40px;
+   background: linear-gradient(#ff9f9155, #dd91ffaa);
+   font-size: 24px;
+}
+
+path {
+   fill: none;
+   stroke: purple;
+}
+
+#controls {
+   width: 500px;
+   margin: auto;
+}
+
+#current-x-point--output,
+#current-y-point--output,
+#container--current-x-point--input,
+#container--current-y-point--input {
+   color: green;
+}
+
+#x-radius--output,
+#y-radius--output,
+#container--x-radius--input,
+#container--y-radius--input {
+   color: purple;
+}
+
+#rotation--output,
+#container--rotation--input {
+   color: red;
+}
+
+#large-arc-flag--output,
+#container--large-arc-flag--input {
+   color: blue;
+}
+
+#sweep-flag--output,
+#container--sweep-flag--input {
+   color: #df00fd;
+}
+
+input:focus {
+   outline: 1px dotted #aaa;
+}

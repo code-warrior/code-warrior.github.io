@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <title>Interactive Arc Creator</title>
+   <link rel="stylesheet" href="../../../styles/reset.css">
+   <link rel="stylesheet" href="../../../styles/base.css">
+   <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+   <header>
+      <h1>Interactive Arc Creator</h1>
+   </header>
+   <main>
+      <div id="controls">
+         <div id="container--current-x-point--input">
+            <label for="current-x-point--input">Current x point</label>
+            <input autofocus id="current-x-point--input" name="current-x-point--input" type="range" min="0" max="500" value="125">
+         </div>
+         <div id="container--current-y-point--input">
+            <label for="current-y-point--input">Current y point</label>
+            <input id="current-y-point--input" name="current-y-point--input" type="range" min="0" max="500" value="75">
+         </div>
+         <div id="container--x-radius--input">
+            <label for="x-radius--input">x-radius</label>
+            <input id="x-radius--input" name="x-radius--input" type="range" min="0" max="500" value="100">
+         </div>
+         <div id="container--y-radius--input">
+            <label for="y-radius--input">y-radius</label>
+            <input id="y-radius--input" name="y-radius--input" type="range" min="0" max="500" value="50">
+         </div>
+         <div id="container--rotation--input">
+            <label for="rotation--input">Rotation</label>
+            <input id="rotation--input" name="rotation--input" type="range" min="0" max="360" value="0">
+         </div>
+         <div id="container--large-arc-flag--input">
+            <label for="large-arc-flag--input">large-arc-flag</label>
+            <select id="large-arc-flag--input" name="large-arc-flag--input">
+               <option value="0">0 (< 180°)</option>
+               <option value="1">1 (≥ 180°)</option>
+            </select>
+         </div>
+         <div id="container--sweep-flag--input">
+            <label for="sweep-flag--input">sweep-flag</label>
+            <select id="sweep-flag--input" name="sweep-flag--input">
+               <option value="0">0 (negative angle)</option>
+               <option value="1">1 (positive angle)</option>
+            </select>
+         </div>
+         <div>
+            <label for="end-x-point--input">End x Point</label>
+            <input id="end-x-point--input" name="end-x-point--input" type="range" min="0" max="500" value="225">
+         </div>
+         <div>
+            <label for="end-y-point--input">End y Point</label>
+            <input id="end-y-point--input" name="end-y-point--input" type="range" min="0" max="500" value="125">
+         </div>
+      </div>
+      <p>
+         <code>
+            &lt;path d="M<span id="current-x-point--output">125</span>,<span id="current-y-point--output">75</span>
+            A<span id="x-radius--output">100</span>,<span id="y-radius--output">50</span>
+            <span id="rotation--output">0</span>
+            <span id="large-arc-flag--output">0</span>
+            <span id="sweep-flag--output">0</span>
+            <span id="end-x-point--output">225</span>,<span id="end-y-point--output">125</span>" /&gt;
+         </code>
+      </p>
+      <div>
+         <svg>
+            <path id="arc" d="M 125,75 A100,50 0 0 0 225,125"></path>
+         </svg>
+      </div>
+   </main>
+   <script src="js/app.js"></script>
+</body>
+</html>
