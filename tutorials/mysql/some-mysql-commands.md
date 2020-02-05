@@ -8,6 +8,8 @@ Then, in another Terminal window:
 
 ```bash
 mysql -u
+```
+```sql
 UPDATE mysql.user SET authentication_string=PASSWORD("YOUR-NEW-PASSWORD") WHERE User='root';
 ALTER USER 'root'@'localhost' IDENTIFIED BY 'YOUR-NEW-PASSWORD';
 ```
@@ -18,6 +20,8 @@ ALTER USER 'root'@'localhost' IDENTIFIED BY 'YOUR-NEW-PASSWORD';
 
 ```bash
 mysql -u root;
+```
+```sql
 use mysql;
 update user set password=PASSWORD("NEW-PASSWORD-HERE") where User='USER';
 flush privileges;
