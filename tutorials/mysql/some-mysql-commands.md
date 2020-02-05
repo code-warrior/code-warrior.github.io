@@ -106,3 +106,11 @@ select <column_1>, <column_2> from <table_name>;
 ```
 
 ---
+
+### DELETE A TABLE
+
+```bash
+DROP TABLE <table_name>;
+```
+
+---
