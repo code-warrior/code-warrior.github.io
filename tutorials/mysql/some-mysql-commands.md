@@ -27,7 +27,7 @@ flush privileges;
 
 ### SHOW WARNINGS FROM A QUERY THAT GENERATED ONE OR MORE WARNINGS
 
-```bash
+```sql
 show warnings;
 ```
 
@@ -43,7 +43,7 @@ mysql -u root -p
 
 ### SELECTING A DATABASE, ONCE LOGGED IN
 
-```bash
+```sql
 use <database_name>;
 ```
 
@@ -51,7 +51,7 @@ use <database_name>;
 
 ### CHECK THE STATUS OF MYSQL, INCLUDING THINGS LIKE CURRENT CHARACTER SET SETTINGS, MYSQL VERSION, CURRENT DATABASE BEING USED, UNIX SOCKET
 
-```bash
+```sql
 status;
 ```
 
@@ -59,7 +59,7 @@ status;
 
 ### DETERMINE WHICH DATABASE IS BEING USED
 
-```bash
+```sql
 select database();
 ```
 
@@ -67,7 +67,7 @@ select database();
 
 ### SHOW THE TABLES IN A CERTAIN DATABASE
 
-```bash
+```sql
 show tables;
 ```
 
@@ -75,7 +75,7 @@ show tables;
 
 ### THREE WAYS TO DESCRIBE A TABLE IN A CERTAIN DATABASE
 
-```bash
+```sql
 show columns from <table_name>;
 desc <table_name>;
 describe <table_name>;
@@ -85,7 +85,7 @@ describe <table_name>;
 
 ### SELECT EVERYTHING FROM A CERTAIN TABLE
 
-```bash
+```sql
 select * from <table_name>;
 ```
 
@@ -93,7 +93,7 @@ select * from <table_name>;
 
 ### SELECT A CERTAIN COLUMN FROM A CERTAIN TABLE
 
-```bash
+```sql
 select <column_name> from <table_name>;
 ```
 
@@ -101,7 +101,7 @@ select <column_name> from <table_name>;
 
 ### SELECT TWO COLUMNS FROM A CERTAIN TABLE
 
-```bash
+```sql
 select <column_1>, <column_2> from <table_name>;
 ```
 
@@ -109,7 +109,7 @@ select <column_1>, <column_2> from <table_name>;
 
 ### DELETE A TABLE
 
-```bash
+```sql
 DROP TABLE <table_name>;
 ```
 
