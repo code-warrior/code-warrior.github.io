@@ -16,7 +16,7 @@ ALTER USER 'root'@'localhost' IDENTIFIED BY 'YOUR-NEW-PASSWORD';
 
 ---
 
-### CHANGE A USER’S PASSWORD
+### Change a User’s Password
 
 ```bash
 mysql -u root;
@@ -29,7 +29,7 @@ flush privileges;
 
 ---
 
-### SHOW WARNINGS FROM A QUERY THAT GENERATED ONE OR MORE WARNINGS
+### Show Warnings From a Query That Generated One or More Warnings
 
 ```sql
 show warnings;
@@ -37,7 +37,7 @@ show warnings;
 
 ---
 
-### LOGGING IN AS ROOT [http://www.youtube.com/watch?v=9NCbFHC7xDc](http://www.youtube.com/watch?v=9NCbFHC7xDc)
+### Logging in as Root [http://www.youtube.com/watch?v=9NCbFHC7xDc](http://www.youtube.com/watch?v=9NCbFHC7xDc)
 
 ```bash
 mysql -u root -p
@@ -45,7 +45,7 @@ mysql -u root -p
 
 ---
 
-### SELECTING A DATABASE, ONCE LOGGED IN
+### Selecting a Database, Once Logged In
 
 ```sql
 use <database_name>;
@@ -53,7 +53,7 @@ use <database_name>;
 
 ---
 
-### CHECK THE STATUS OF MYSQL, INCLUDING THINGS LIKE CURRENT CHARACTER SET SETTINGS, MYSQL VERSION, CURRENT DATABASE BEING USED, UNIX SOCKET
+### Check the Status of MySQL, Including Things Like Current Character Set Settings, MySQL Versions, Current Database Being Used, UNIX Socket
 
 ```sql
 status;
@@ -61,7 +61,7 @@ status;
 
 ---
 
-### DETERMINE WHICH DATABASE IS BEING USED
+### Determine Which Database is Being Used
 
 ```sql
 select database();
@@ -69,7 +69,7 @@ select database();
 
 ---
 
-### SHOW THE TABLES IN A CERTAIN DATABASE
+### Show the Tables in a Certain Database
 
 ```sql
 show tables;
@@ -77,7 +77,7 @@ show tables;
 
 ---
 
-### THREE WAYS TO DESCRIBE A TABLE IN A CERTAIN DATABASE
+### Three Ways to Describe a Table in a Certain Database
 
 ```sql
 show columns from <table_name>;
@@ -87,7 +87,7 @@ describe <table_name>;
 
 ---
 
-### SELECT EVERYTHING FROM A CERTAIN TABLE
+### Select Everything from a Certain Table
 
 ```sql
 select * from <table_name>;
@@ -95,7 +95,7 @@ select * from <table_name>;
 
 ---
 
-### SELECT A CERTAIN COLUMN FROM A CERTAIN TABLE
+### Select a Certain Column From a Certain Table
 
 ```sql
 select <column_name> from <table_name>;
@@ -103,7 +103,7 @@ select <column_name> from <table_name>;
 
 ---
 
-### SELECT TWO COLUMNS FROM A CERTAIN TABLE
+### Select Two Columns from a Certain Table
 
 ```sql
 select <column_1>, <column_2> from <table_name>;
@@ -111,7 +111,7 @@ select <column_1>, <column_2> from <table_name>;
 
 ---
 
-### DELETE A TABLE
+### Delete a Table
 
 ```sql
 DROP TABLE <table_name>;
