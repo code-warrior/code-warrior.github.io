@@ -1,3 +1,19 @@
+### Reset root password in MySQL 5.7
+
+```bash
+sudo mysqld_safe --skip-grant-tables --skip-networking
+```
+
+Then, in another Terminal window:
+
+```bash
+mysql -u
+UPDATE mysql.user SET authentication_string=PASSWORD("YOUR-NEW-PASSWORD") WHERE User='root';
+ALTER USER 'root'@'localhost' IDENTIFIED BY 'YOUR-NEW-PASSWORD';
+```
+
+---
+
 ### CHANGE A USER’S PASSWORD
 
 ```bash
