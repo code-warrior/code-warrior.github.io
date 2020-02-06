@@ -39,7 +39,7 @@ SHOW WARNINGS;
 
 ---
 
-### Logging in as Root [http://www.youtube.com/watch?v=9NCbFHC7xDc](http://www.youtube.com/watch?v=9NCbFHC7xDc)
+### [Logging in as Root](http://www.youtube.com/watch?v=9NCbFHC7xDc)
 
 ```bash
 mysql -u root -p
