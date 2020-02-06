@@ -1,5 +1,6 @@
-### Reset root password in MySQL 5.7
 # Some MySQL Commands
+
+## Reset root password in MySQL 5.7
 
 ```bash
 sudo mysqld_safe --skip-grant-tables --skip-networking
@@ -17,7 +18,7 @@ ALTER USER 'root'@'localhost' IDENTIFIED BY 'YOUR-NEW-PASSWORD';
 
 ---
 
-### Change a User’s Password
+## Change a User’s Password
 
 ```bash
 mysql -u root;
@@ -30,7 +31,7 @@ FLUSH PRIVILEGES;
 
 ---
 
-### Show Warnings From a Query That Generated One or More Warnings
+## Show Warnings from a Query That Generated One or More Warnings
 
 ```sql
 SHOW WARNINGS;
@@ -46,7 +47,7 @@ mysql -u root -p
 
 ---
 
-### Selecting a Database, Once Logged In
+## Selecting a Database, Once Logged In
 
 ```sql
 USE <database_name>;
@@ -54,7 +55,7 @@ USE <database_name>;
 
 ---
 
-### Check the Status of MySQL, Including Things Like Current Character Set Settings, MySQL Versions, Current Database Being Used, UNIX Socket
+## Check the Status of MySQL, Including Things Like Current Character Set Settings, MySQL Versions, Current Database Being Used, UNIX Socket
 
 ```sql
 STATUS;
@@ -62,7 +63,7 @@ STATUS;
 
 ---
 
-### Determine Which Database is Being Used
+## Determine Which Database is Being Used
 
 ```sql
 SELECT database();
@@ -70,7 +71,7 @@ SELECT database();
 
 ---
 
-### Show the Tables in a Certain Database
+## Show the Tables in a Certain Database
 
 ```sql
 SHOW TABLES;
@@ -78,7 +79,7 @@ SHOW TABLES;
 
 ---
 
-### Three Ways to Describe a Table in a Certain Database
+## Three Ways to Describe a Table in a Certain Database
 
 ```sql
 SHOW COLUMNS FROM <table_name>;
@@ -88,7 +89,7 @@ DESCRIBE <table_name>;
 
 ---
 
-### Select Everything from a Certain Table
+## Select Everything from a Certain Table
 
 ```sql
 SELECT * FROM <table_name>;
@@ -96,7 +97,7 @@ SELECT * FROM <table_name>;
 
 ---
 
-### Select a Certain Column From a Certain Table
+## Select a Certain Column from a Certain Table
 
 ```sql
 SELECT <column_name> FROM <table_name>;
@@ -104,7 +105,7 @@ SELECT <column_name> FROM <table_name>;
 
 ---
 
-### Select Two Columns from a Certain Table
+## Select Two Columns from a Certain Table
 
 ```sql
 SELECT <column_1>, <column_2> FROM <table_name>;
@@ -112,7 +113,7 @@ SELECT <column_1>, <column_2> FROM <table_name>;
 
 ---
 
-### Delete a Table
+## Delete a Table
 
 ```sql
 DROP TABLE <table_name>;
