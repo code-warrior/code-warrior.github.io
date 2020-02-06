@@ -1,4 +1,5 @@
 ### Reset root password in MySQL 5.7
+# Some MySQL Commands
 
 ```bash
 sudo mysqld_safe --skip-grant-tables --skip-networking
