@@ -22,9 +22,9 @@ ALTER USER 'root'@'localhost' IDENTIFIED BY 'YOUR-NEW-PASSWORD';
 mysql -u root;
 ```
 ```sql
-use mysql;
-update user set password=PASSWORD("NEW-PASSWORD-HERE") where User='USER';
-flush privileges;
+USE mysql;
+UPDATE user SET password=PASSWORD("NEW-PASSWORD-HERE") WHERE User='USER';
+FLUSH PRIVILEGES;
 ```
 
 ---
@@ -32,7 +32,7 @@ flush privileges;
 ### Show Warnings From a Query That Generated One or More Warnings
 
 ```sql
-show warnings;
+SHOW WARNINGS;
 ```
 
 ---
@@ -48,7 +48,7 @@ mysql -u root -p
 ### Selecting a Database, Once Logged In
 
 ```sql
-use <database_name>;
+USE <database_name>;
 ```
 
 ---
@@ -56,7 +56,7 @@ use <database_name>;
 ### Check the Status of MySQL, Including Things Like Current Character Set Settings, MySQL Versions, Current Database Being Used, UNIX Socket
 
 ```sql
-status;
+STATUS;
 ```
 
 ---
@@ -64,7 +64,7 @@ status;
 ### Determine Which Database is Being Used
 
 ```sql
-select database();
+SELECT database();
 ```
 
 ---
@@ -72,7 +72,7 @@ select database();
 ### Show the Tables in a Certain Database
 
 ```sql
-show tables;
+SHOW TABLES;
 ```
 
 ---
@@ -80,9 +80,9 @@ show tables;
 ### Three Ways to Describe a Table in a Certain Database
 
 ```sql
-show columns from <table_name>;
-desc <table_name>;
-describe <table_name>;
+SHOW COLUMNS FROM <table_name>;
+DESC <table_name>;
+DESCRIBE <table_name>;
 ```
 
 ---
@@ -90,7 +90,7 @@ describe <table_name>;
 ### Select Everything from a Certain Table
 
 ```sql
-select * from <table_name>;
+SELECT * FROM <table_name>;
 ```
 
 ---
@@ -98,7 +98,7 @@ select * from <table_name>;
 ### Select a Certain Column From a Certain Table
 
 ```sql
-select <column_name> from <table_name>;
+SELECT <column_name> FROM <table_name>;
 ```
 
 ---
@@ -106,7 +106,7 @@ select <column_name> from <table_name>;
 ### Select Two Columns from a Certain Table
 
 ```sql
-select <column_1>, <column_2> from <table_name>;
+SELECT <column_1>, <column_2> FROM <table_name>;
 ```
 
 ---
