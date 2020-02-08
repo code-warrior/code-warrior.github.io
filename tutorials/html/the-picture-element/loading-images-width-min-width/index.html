@@ -1,34 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-   <meta charset="utf-8">
-   <meta name="viewport" content="width=device-width,initial-scale=1">
-   <title>The &lt;picture&gt; Element: Loading images with min-width</title>
-   <link rel="stylesheet" href="css/style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>The &lt;picture&gt; Element: Loading images with min-width</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-   <header>
-      <h1>The &lt;picture&gt; Element</h1>
-      <p>Loading images with <code>min-width</code></p>
-   </header>
-   <p>In order to understand how the <code>source</code> images are being loaded, launch Chrome’s Developer Tools, click the <b>Network</b> tab, then reload the page. Resize the page while noting which images are being loaded.</p>
-   <picture>
-      <source
-         media="(min-width: 1024px)"
-         srcset="img/red.jpg">
-      <source
-         media="(min-width: 800px)"
-         srcset="img/green.jpg">
-      <source
-         media="(min-width: 640px)"
-         srcset="img/blue.jpg">
-      <source
-         media="(min-width: 480px)"
-         srcset="img/yellow.jpg">
-      <img src="img/purple.jpg" alt="[Purple]">
-   </picture>
-   <footer>
-      <p>Read more at <a href="https://www.html5rocks.com/en/tutorials/responsive/picture-element/#toc-pixel-density-descriptors" target="_blank" rel="noopener">HTML5 Rocks</a>, and also see <a href="https://googlechrome.github.io/samples/picture-element/" target="_blank" rel="noopener">this example</a>.</p>
-   </footer>
+  <header>
+    <h1>The &lt;picture&gt; Element</h1>
+    <p>Loading images with <code>min-width</code></p>
+  </header>
+  <p>In order to understand how the <code>source</code> images are being loaded, launch Chrome’s Developer Tools, click the <b>Network</b> tab, then reload the page. Resize the page while noting which images are being loaded.</p>
+  <picture>
+    <source media="(min-width: 1024px)" srcset="img/red.jpg">
+    <source media="(min-width: 800px)" srcset="img/green.jpg">
+    <source media="(min-width: 640px)" srcset="img/blue.jpg">
+    <source media="(min-width: 480px)" srcset="img/yellow.jpg">
+    <img src="img/purple.jpg" alt="[Purple]">
+  </picture>
+  <footer>
+    <p>Read more at <a href="https://www.html5rocks.com/en/tutorials/responsive/picture-element/#toc-pixel-density-descriptors" target="_blank" rel="noopener">HTML5 Rocks</a>, and also see <a href="https://googlechrome.github.io/samples/picture-element/" target="_blank" rel="noopener">this example</a>.</p>
+  </footer>
 </body>
 </html>

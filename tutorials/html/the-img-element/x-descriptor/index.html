@@ -1,44 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-   <meta charset="utf-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Working with img’s srcset’s x-descriptor</title>
-   <link rel="stylesheet" href="../../../../styles/reset.css">
-   <link rel="stylesheet" href="../../../../styles/base.css">
-   <style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Working with img’s srcset’s x-descriptor</title>
+  <link rel="stylesheet" href="../../../../styles/reset.css">
+  <link rel="stylesheet" href="../../../../styles/base.css">
+  <style>
 h1,
 p {
-   text-align: center;
+  text-align: center;
 }
 
 img {
-   display: inline-block;
-   width: 50%;
+  display: inline-block;
+  width: 50%;
 }
-   </style>
+  </style>
 </head>
 <body>
-   <header>
-      <h1>Working with <code>img</code>’s <code>srcset</code>’s <code>x-descriptor</code></h1>
-   </header>
-   <main>
-      <!--
-         Loads 1x, 2x, or 3x versions of the same image, depending on whether the
-         screen’s device-pixel-ratio (device to pixel ratio) is:
-            1x (1:1)
-            2x (2:1)
-            3x (3:1)
-               (x:y) — device pixel: css pixels
-      -->
-      <div><img
-         src="img/OpenRescueAE_Goats_Spain_JMcArthur_2009-0546@1x.jpg" alt=""
-         srcset="img/OpenRescueAE_Goats_Spain_JMcArthur_2009-0546@2x.jpg 2x,
-                 img/OpenRescueAE_Goats_Spain_JMcArthur_2009-0546@3x.jpg 3x"><img
-         src="img/OpenRescueAE_Goats_Spain_JMcArthur_2009-0560@1x.jpg" alt=""
-         srcset="img/OpenRescueAE_Goats_Spain_JMcArthur_2009-0560@2x.jpg 2x,
-                 img/OpenRescueAE_Goats_Spain_JMcArthur_2009-0560@3x.jpg 3x"></div>
-      <p>Images courtesy of Jo-Anne McArthur / <a href="http://weanimals.org/" target="_blank" rel="noopener">We Animals</a></p>
-   </main>
+  <header>
+    <h1>Working with <code>img</code>’s <code>srcset</code>’s <code>x-descriptor</code></h1>
+  </header>
+  <main>
+    <!--
+      Loads 1x, 2x, or 3x versions of the same image, depending on whether the
+      screen’s device-pixel-ratio (device to pixel ratio) is:
+        1x (1:1)
+        2x (2:1)
+        3x (3:1)
+          (x:y) — device pixel: css pixels
+    -->
+    <div><img
+      src="img/OpenRescueAE_Goats_Spain_JMcArthur_2009-0546@1x.jpg" alt=""
+      srcset="img/OpenRescueAE_Goats_Spain_JMcArthur_2009-0546@2x.jpg 2x,
+            img/OpenRescueAE_Goats_Spain_JMcArthur_2009-0546@3x.jpg 3x"><img
+      src="img/OpenRescueAE_Goats_Spain_JMcArthur_2009-0560@1x.jpg" alt=""
+      srcset="img/OpenRescueAE_Goats_Spain_JMcArthur_2009-0560@2x.jpg 2x,
+            img/OpenRescueAE_Goats_Spain_JMcArthur_2009-0560@3x.jpg 3x"></div>
+    <p>Images courtesy of Jo-Anne McArthur / <a href="http://weanimals.org/" target="_blank" rel="noopener">We Animals</a></p>
+  </main>
 </body>
 </html>
