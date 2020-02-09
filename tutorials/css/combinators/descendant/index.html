@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Combinators — Descendant</title>
+  <link rel="stylesheet" href="../../../../styles/reset.css">
+  <link rel="stylesheet" href="../../../../styles/base.css">
+  <style>
+div em {
+  border: 1px solid #ddd;
+}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>The Descendant Combinator</h1>
+    <p>All <code>em</code> elements that descend from a <code>div</code> element get a grey border.</p>
+  </header>
+  <main>
+    <p>Paragraph <em>1</em></p>
+    <div>
+      <ul>
+        <li>Item 1</li>
+        <li>Item <em>2</em></li>
+        <li>
+          <ul>
+            <li>Item <em>2.1</em></li>
+          </ul>
+        </li>
+      </ul>
+      <ol>
+        <li>Item 1</li>
+        <li>Item <em>2</em></li>
+        <li>
+          <ol>
+            <li>Item <em>2.1</em></li>
+          </ol>
+        </li>
+      </ol>
+    </div>
+  </main>
+</body>
+</html>
