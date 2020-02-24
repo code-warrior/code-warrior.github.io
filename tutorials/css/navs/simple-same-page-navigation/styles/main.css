@@ -1,22 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
-
-body {
-   font-family: 'Roboto Slab', serif;
-}
-
 h1, h2, div {
-   color: #5d4412;
    text-align: center;
-   font-weight: 700;
-}
-
-h1 {
-   font-size: 2rem;
-   margin: 36px 0;
-}
-
-h2 {
-   font-size: 1.83rem;
+   font-weight: 500;
 }
 
 nav {

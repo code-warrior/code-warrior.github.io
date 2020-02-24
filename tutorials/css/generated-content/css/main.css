@@ -1,7 +1,15 @@
-p::before {
-   content: 'Hello! ';
+main > p:last-of-type::before {
+  content: 'Hello! ';
+  border: 1px solid #00000066;
 }
 
-p::after {
-   content: ' Good bye!';
+main > p:last-of-type::after {
+  content: ' Good bye!';
+  border: 1px solid #0000FF66;
+}
+
+main > p:last-of-type::before,
+main > p:last-of-type::after {
+  border-radius: 4px;
+  padding: 4px;
 }

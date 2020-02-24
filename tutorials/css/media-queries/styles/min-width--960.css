@@ -1,10 +1,9 @@
 body:before {
-   position: fixed;
-   top: 50vh;
-   left: 0;
-   font-family: Helvetica, Arial, sans-serif;
-   content: 'This content shows in screen widths larger than 960 pixels';
-   padding: 10px 8px;
-   margin: 0;
-   background-color: rgba(0,0,0, 0.2);
+  position: fixed;
+  top: 50vh;
+  left: 0;
+  content: 'This content shows in screens whose width is at least 960 pixels';
+  padding: 10px 8px;
+  margin: 0;
+  background-color: rgba(0,0,0, 0.2);
 }

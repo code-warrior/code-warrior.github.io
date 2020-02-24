@@ -1,25 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-   <meta charset="utf-8">
-   <title>Media Queries (Responsive Design — Max Width)</title>
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <style media="screen and (max-width: 960px)">
-      body:before {
-         display: block;
-         position: fixed;
-         top: 50vh;
-         left: 0;
-         font-family: Helvetica, Arial, sans-serif;
-         content: 'This content shows in screens between 0 and a maximum width of 960 pixels';
-         padding: 10px 8px;
-         margin: 0;
-         background-color: rgba(0,255,0, 0.2);
-      }
-   </style>
+  <meta charset="utf-8">
+  <title>Media Queries (Responsive Design — Max Width)</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../../../styles/reset.css">
+  <link rel="stylesheet" href="../../../styles/base.css">
+  <style media="screen and (max-width: 960px)">
+    body:before {
+      display: block;
+      position: fixed;
+      top: 50vh;
+      left: 0;
+      content: 'This content shows in screens between 0 and a maximum width of 960 pixels';
+      padding: 10px 8px;
+      margin: 0;
+      background-color: rgba(0,255,0, 0.2);
+    }
+  </style>
 </head>
 <body>
-   <h1>Media Queries (Responsive Design)</h1>
-   <p>This example uses <code>max-width</code> to respond to the viewport width. The media query is embedded in the <code>style</code> element. Change the width of this page so it falls within and outside of 960 pixels.</p>
+  <header>
+    <h1>Media Queries (Responsive Design)</h1>
+  </header>
+  <main>
+    <p>This example uses <code>max-width</code> to respond to the viewport width. The media query is embedded in the <code>style</code> element. Change the width of this page so it falls within and outside of 960 pixels.</p>
+  </main>
 </body>
 </html>
