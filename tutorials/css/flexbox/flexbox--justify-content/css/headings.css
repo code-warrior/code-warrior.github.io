@@ -1,14 +1,14 @@
 h1 {
-   font-family: var(--typeface--level-1-heading);
-   text-align: center;
-   font-size: var(--font-size--level-1-heading);
-   margin-top: var(--margin);
-   margin-bottom: var(--margin);
+  font-family: var(--typeface--level-1-heading);
+  text-align: center;
+  font-size: var(--font-size--level-1-heading);
+  margin-top: var(--margin);
+  margin-bottom: var(--margin);
 }
 
 h2 {
-   font-size: var(--font-size--level-2-heading);
-   font-weight: var(--semi-bold);
-   margin-top: var(--margin);
-   margin-bottom: var(--margin);
+  font-size: var(--font-size--level-2-heading);
+  font-weight: var(--semi-bold);
+  margin-top: var(--margin);
+  margin-bottom: var(--margin);
 }
