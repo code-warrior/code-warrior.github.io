@@ -1,0 +1,46 @@
+#the-sea {
+  position: relative;
+  margin: auto;
+  width: var(--width--the-sea);
+  height: var(--height--the-sea);
+  background: var(--color-of-the-sky) var(--image-of-the-sea);
+}
+
+img {
+  position: absolute;
+}
+
+img:nth-child(odd) {
+  transform: rotateY(180deg);
+}
+
+img:nth-child(1),
+img:nth-child(2) {
+  top: var(--vertical-offset--top-fish);
+}
+
+img:nth-child(3),
+img:nth-child(4) {
+  bottom: var(--vertical-offset--bottom-fish);
+}
+
+img:nth-child(1) {
+  left: var(--horizontal-offset--top-fish);
+}
+
+img:nth-child(2) {
+  right: var(--horizontal-offset--top-fish);
+}
+
+img:nth-child(3) {
+  left: var(--horizontal-offset--bottom-fish);
+}
+
+img:nth-child(4) {
+  right: var(--horizontal-offset--bottom-fish);
+}
+
+h1,
+p {
+  text-align: center;
+}

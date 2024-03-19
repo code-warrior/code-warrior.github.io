@@ -1,0 +1,10 @@
+:root {
+  --width--the-sea: 800px;
+  --height--the-sea: 600px;
+  --color-of-the-sky: hsl(190, 76%, 87%);
+  --image-of-the-sea: url('../img/sea.png');
+  --vertical-offset--top-fish: 200px;
+  --horizontal-offset--top-fish: 120px;
+  --vertical-offset--bottom-fish: 120px;
+  --horizontal-offset--bottom-fish: 40px;
+}
