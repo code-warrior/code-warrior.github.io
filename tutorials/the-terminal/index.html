@@ -42,8 +42,12 @@
          padding: 1px 2px;
       }
 
-      kbd, code {
-         font-size: 1rem;
+      code {
+        background-color: transparent;
+      }
+
+      code .small-caps {
+        font-weight: bold;
       }
 
       dd {
@@ -55,6 +59,17 @@
         border-radius: 6px;
         padding-left: 8px;
         line-height: 32px;
+      }
+
+      samp {
+        font-family: monospace;
+        font-size: 1rem;
+      }
+
+      .small-caps {
+        letter-spacing: .025rem;
+        /* font-size: 1.125rem; */
+        font-variant: small-caps;
       }
    </style>
 </head>
