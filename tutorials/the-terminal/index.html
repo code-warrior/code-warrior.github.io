@@ -42,20 +42,41 @@
          padding: 1px 2px;
       }
 
-      kbd, code {
-         font-size: 1rem;
+      code {
+        background-color: transparent;
+      }
+
+      code .small-caps {
+        font-weight: bold;
       }
 
       dd {
-         margin-top: 12px;
-         margin-bottom: 28px;
+         margin-bottom: 40px;
+      }
+
+      dt {
+        background-color: rgb(245, 245, 245);
+        border-radius: 6px;
+        padding-left: 8px;
+        line-height: 32px;
+      }
+
+      samp {
+        font-family: monospace;
+        font-size: 1rem;
+      }
+
+      .small-caps {
+        letter-spacing: .025rem;
+        /* font-size: 1.125rem; */
+        font-variant: small-caps;
       }
    </style>
 </head>
 <body>
    <main>
       <h1>Basic Terminal Tutorial</h1>
-      <p>In the examples below, items in <code>CAPS</code> are filler content representing an actual file or folder on your computer. Items you type into The Terminal appear in <kbd>light blue</kbd>.</p>
+      <p>In the examples below, content in small capital letters set in a monospace typeface, such as <code class="small-caps">file</code> and <code class="small-caps">folder</code>, indicate filler content, such as a file or folder from your computer. Content you’d type into The Terminal is also set in a monospace typeface, but surrounded by a <kbd>light blue</kbd> background.</p>
       <dl>
          <dt><kbd>./</kbd></dt>
          <dd>The current directory.</dd>
@@ -64,58 +85,64 @@
          <dd>The parent of the current directory.</dd>
 
          <dt><kbd>alias</kbd></dt>
-         <dd>Displays all keyboard aliases (shortcuts), usually in a file called <code>.bash_aliases</code>.</dd>
+         <dd>Displays all aliases (keyboard shortcuts), usually in a file called <code>.bash_aliases</code>, assigned to commands. <strong>Note</strong>: To run the default version of any command to which an alias has been assigned, precede it with a backslash (<code>\</code>). For example, running <kbd>\rm</kbd> in my terminal would bypass my alias of <code>'rm -i'</code>.</dd>
 
-         <dt><kbd>atom</kbd></dt>
-         <dd>Launches Atom, assuming the shell commands have been installed. Typing <kbd>atom .</kbd> opens the current folder in Atom and typing <kbd>atom FILE</kbd> opens <code>FILE</code> in Atom.</dd>
+         <dt><kbd>code</kbd></dt>
+         <dd>Launches <span class="small-caps">vs</span> Code, assuming the shell commands have been installed. Typing <kbd>code .</kbd> opens the current folder in <span class="small-caps">vs</span> Code, and typing <kbd>code <span class="small-caps">file</span></kbd> opens <code class="small-caps">file</code> in <span class="small-caps">vs</span> Code.</dd>
 
-         <dt><kbd>cat FILE</kbd></dt>
-         <dd>Displays the contents of <code>FILE</code>, then returns control to The Terminal.</dd>
+         <dt><kbd>cat <span class="small-caps">file</span></kbd></dt>
+         <dd>Displays the contents of <code class="small-caps">file</code>, then returns control to The Terminal.</dd>
 
          <dt><kbd>cd</kbd></dt>
-         <dd>Changes directory to your home folder, <code>~/Users/YOUR_NAME</code>. Typing <kbd>cd FOLDER</kbd> changes into <code>FOLDER</code> and typing <kbd>cd ../FOLDER</kbd> changes into a directory called <code>FOLDER</code> in the current directory’s parent.</dd>
+         <dd>Changes directory to your home folder, which is likely <code>~/Users/<span class="small-caps">your_name</span></code>. Typing <kbd>cd <span class="small-caps">folder</span></kbd> changes into <code class="small-caps">folder</code> and typing <kbd>cd ../<span class="small-caps">folder</span></kbd> changes into a directory called <code class="small-caps">folder</code> in the current directory’s parent. Typing <kbd>cd</kbd> from anywhere in your directory tree will take you home.</dd>
 
          <dt><kbd>clear</kbd></dt>
          <dd>Clears the screen of any content, placing the cursor at the top of The Terminal’s window.</dd>
 
-         <dt><kbd>cp FILE.txt COPY-OF-FILE.txt</kbd></dt>
-         <dd>Copies the file <code>FILE.txt</code> to a new file called <code>COPY-OF-FILE.txt</code></dd>
+         <dt><kbd>cp <span class="small-caps">file</span>.txt <span class="small-caps">copy-of-file</span>.txt</kbd></dt>
+         <dd>Copies the file <code><span class="small-caps">file</span>.txt</code> to a new file called <code><span class="small-caps">copy-of-file</span>.txt</code></dd>
 
-         <dt><kbd>head FILE.html</kbd></dt>
-         <dd>Shows the first 10 lines of <code>FILE.html</code></dd>
+         <dt><kbd>head <span class="small-caps">file</span>.html</kbd></dt>
+         <dd>Shows the first 10 lines of <code><span class="small-caps">file</span>.html</code></dd>
 
          <dt><kbd>history</kbd></dt>
-         <dd>Displays a history of all the typed commands into The Terminal.</dd>
+         <dd>Displays a history of all the commands typed into The Terminal.</dd>
 
          <dt><kbd>ls</kbd></dt>
          <dd>Displays the files and folders in the current directory, excluding those that start with a dot. Typing <kbd>ls -a</kbd> lists all files and folders that start with and without a dot. And, typing <kbd>ls -d .*</kbd> lists only files and folders that start with a dot.</dd>
 
-         <dt><kbd>man COMMAND</kbd></dt>
-         <dd>Displays the manual for <code>COMMAND</code>.</dd>
+         <dt><kbd>man <span class="small-caps">command</span></kbd></dt>
+         <dd>Displays the manual for <code class="small-caps">command</code>.</dd>
 
-         <dt><kbd>mkdir NEW_FOLDER</kbd></dt>
-         <dd>Creates a new folder called <code>NEW_FOLDER</code> in the current directory. Using the <code>-p</code> flag creates intermediate folders. For example, to create folder <code>C</code> inside folder <code>B</code> inside folder <code>A</code>, none of which exists, you’d run <kbd>mkdir -p A/B/C</kbd>.</dd>
+         <dt><kbd>mkdir <span class="small-caps">new_folder</span></kbd></dt>
+         <dd>Creates a new folder called <code class="small-caps">new_folder</code> in the current directory. Using the <code>-p</code> flag creates any non-existing intermediate folders without having to create each of the intermediate folders individually. For example, assume folders <code class="small-caps">a</code>, <code class="small-caps"><code class="small-caps">b</code></code>, and <code class="small-caps">c</code> don’t exist. Running <kbd>mkdir -p <span class="small-caps">a/b/c</span></kbd> would create folder <code class="small-caps">c</code> inside folder <code class="small-caps">b</code> inside folder <code class="small-caps">a</code>.</dd>
 
-         <dt><kbd>mv FILE FOLDER/</kbd></dt>
-         <dd>Moves <code>FILE</code> inside <code>FOLDER</code>. <code>mv</code> is also used to rename a file. For example, <kbd>mv FILE FILE_WITH_NEW_NAME</kbd> renames <code>FILE</code> → <code>FILE_WITH_NEW_NAME</code></dd>
+         <dt><kbd>mv <span class="small-caps">file</span> <span class="small-caps">folder</span>/</kbd></dt>
+         <dd>Moves <code class="small-caps">file</code> inside <code class="small-caps">folder</code>. <code>mv</code> is also used to rename a file. For example, <kbd>mv <span class="small-caps">file</span> <span class="small-caps">file_with_new_name</span></kbd> renames <code class="small-caps">file</code> → <code class="small-caps">file_with_new_name</code></dd>
 
-         <dt><kbd>more FILE</kbd></dt>
-         <dd>Render the contents of <code>FILE</code> one screenful at a time. You will need to type <kbd>q</kbd> to exit.</dd>
+         <dt><kbd>more <span class="small-caps">file</span></kbd></dt>
+         <dd>Render the contents of <code class="small-caps">file</code> one screenful at a time. Type <kbd>q</kbd> to exit.</dd>
 
          <dt><kbd>open .</kbd></dt>
-         <dd>Opens the current folder in Mac OS X’s Finder. (This is a Mac-only command.)</dd>
+         <dd>Opens the current folder (<code>.</code>) in mac<span class="small-caps">os</span>’s Finder. Also does things like open a <code class="small-caps">url</code> in a browser. For example, <kbd>open https://github.com/code-warrior</kbd> launches the web address in your default browser. (In Cygwin, <code>open</code>’s equivalent is <code>cygstart</code> and in Ubuntu it’s <code>xdg-open</code>.)</dd>
 
-         <dt><kbd>rm FILE</kbd></dt>
-         <dd>Removes <code>FILE</code>. Some Linux and Mac OS systems don’t have a guard on the <code>rm</code> command, meaning that the user isn’t asked to verify the removal of a file. Because files removed with <code>rm</code> aren’t retrievable, use the <code>-i</code> flag so you can verify that, indeed, you want to remove a file. For example, <kbd>rm -i FILE</kbd> would ask if you want to <code>remove FILE?</code>.<br><br>To recursively remove a folder, run <kbd>rm -r FOLDER</kbd>; and, to forcefully and recursively remove a directory without interaction, run <kbd>rm -fr FOLDER</kbd>.</dd>
+         <dt><kbd>rm <span class="small-caps">file</span></kbd></dt>
+         <dd>Removes <code class="small-caps">file</code>. Some Linux and mac<span class="small-caps">os</span> systems don’t have a guard on the <code>rm</code> command, meaning that the user isn’t asked to verify the removal of a file. Because files removed with <code>rm</code> aren’t retrievable, use the <code>-i</code> flag so you can verify that, indeed, you want to remove a file. For example, <kbd>rm -i <span class="small-caps">file</span></kbd> would ask if you want to <code>remove <span class="small-caps">file</span>?</code>.<br><br>To recursively remove a folder, run <kbd>rm -r <span class="small-caps">folder</span></kbd>; and, to forcefully and recursively remove a directory without interaction, run <kbd>rm -fr <span class="small-caps">folder</span></kbd>.</dd>
 
-         <dt><kbd>sudo COMMAND</kbd></dt>
-         <dd>Run <code>COMMAND</code> as the current user with privileged access.</dd>
+         <dt><kbd>sudo <span class="small-caps">command</span></kbd></dt>
+         <dd>Run <code class="small-caps">command</code> as the current user with privileged access.</dd>
 
-         <dt><kbd>tail FILE.html</kbd></dt>
-         <dd>Shows the last 10 lines of <code>FILE.html</code></dd>
+         <dt><kbd>tail <span class="small-caps">file</span></kbd></dt>
+         <dd>Shows the last 10 lines of <code><span class="small-caps">file</span></code></dd>
 
-         <dt><kbd>touch FILE</kbd></dt>
-         <dd>Creates a new, empty file called <code>FILE</code>. If <code>FILE</code> exists, <code>touch</code> does nothing.</dd>
+         <dt><kbd>touch <span class="small-caps">file</span></kbd></dt>
+         <dd>Creates a new, empty file called <code class="small-caps">file</code>. If <code class="small-caps">file</code> exists, <code>touch</code> does nothing.</dd>
+
+         <dt><kbd>type <span class="small-caps">program</span></kbd></dt>
+         <dd>Provides info about whether <code class="small-caps">program</code> is an alias, command, function, etc. Combine the <code>-all</code> flag — for “all locations” — with <code>type</code> to see everything associated with <code class="small-caps">program</code>. For example, <kbd>type -all ls</kbd> reveals on my system that <code>ls</code> is aliased to <code>`ls --color=auto'</code> and that it resides at <code>/bin/ls</code> in my file system.</dd>
+
+         <dt><kbd>which <span class="small-caps">program</span></kbd></dt>
+         <dd>Locates and prints the path to <code class="small-caps">program</code>. For example, if you wanted to know where the <code>ls</code> program was installed, <kbd>which ls</kbd> would respond with <code>/bin/ls</code>. Consider aliasing <code>which</code> to <kbd>type -all</kbd> in order to get more info about <code class="small-caps">program</code>.</dd>
       </dl>
    </main>
 </body>
