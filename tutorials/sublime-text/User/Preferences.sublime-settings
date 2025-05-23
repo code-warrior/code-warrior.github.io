@@ -30,8 +30,7 @@
 		".Trash",
 		".Trash-*"
 	],
-	"font_face": "IBM Plex Mono",
-	"font_face": "Ubuntu Mono",
+	"font_face": "'IBM Plex Mono', 'Ubuntu Mono'",
 	"font_options": [
 		"subpixel_antialias"
 	 ],
